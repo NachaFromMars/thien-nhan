@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "name": "STAR Framework & Role Competencies",
+    "version": "1.0",
+    "description": "STAR (Situation, Task, Action, Result) questions + Core competencies mapping by role",
+    "roles": 12,
+    "starQuestionsPerRole": 5,
+    "totalCompetencies": 15
+  },
+  "competencyFramework": {
+    "1_leadership": {
+      "name": "Leadership",
+      "description": "Khả năng dẫn dắt, lấy quyết định, lấy trách nhiệm",
+      "indicators": ["Lấy trách nhiệm", "Dẫn dắt nhóm", "Quyết định khó", "Inspire mọi người", "Delegation"],
+      "roles": ["Giám đốc", "Quản lý", "Lãnh đạo dự án"],
+      "level": {
+        "1": "Bộ phận → 5-10 người",
+        "2": "Công ty → 50+ người",
+        "3": "Tập đoàn → multi-site"
+      }
+    },
+    "2_communication": {
+      "name": "Communication",
+      "description": "Khả năng giao tiếp rõ ràng, lắng nghe, truyền đạt",
+      "indicators": ["Nói rõ ràng", "Lắng nghe", "Viết tốt", "Thuyết trình", "Đàm phán"],
+      "roles": ["Sales", "PR", "HR", "Giáo viên", "Tư vấn"],
+      "level": {
+        "1": "Đội nhỏ, một chiều",
+        "2": "Đa bên, hai chiều",
+        "3": "Công khai, persuasion, leadership"
+      }
+    },
+    "3_analytical": {
+      "name": "Analytical Thinking",
+      "description": "Khả năng phân tích, giải quyết vấn đề, tư duy logic",
+      "indicators": ["Phân tích sâu", "Tìm root cause", "Logic thinking", "Data-driven", "Problem-solving"],
+      "roles": ["Analyst", "Kỹ sư", "Quản lý", "Nhà khoa học"],
+      "level": {
+        "1": "Một module, linear",
+        "2": "Nhiều module, complex",
+        "3": "Strategy, system thinking"
+      }
+    },
+    "4_organization": {
+      "name": "Organization & Planning",
+      "description": "Khả năng lập kế hoạch, tổ chức, quản lý thời gian",
+      "indicators": ["Lập kế hoạch", "Sắp xếp ưu tiên", "Manage timeline", "Multi-tasking", "Project mgmt"],
+      "roles": ["Hành chính", "Quản lý dự án", "Quản lý sản phẩm"],
+      "level": {
+        "1": "1 dự án, <3 tháng",
+        "2": "3-5 dự án, 3-12 tháng",
+        "3": "10+ dự án, multi-year"
+      }
+    },
+    "5_teamwork": {
+      "name": "Teamwork & Collaboration",
+      "description": "Khả năng làm việc với người khác, hợp tác, đóng góp cho nhóm",
+      "indicators": ["Hợp tác", "Support teammates", "Resolve conflict", "Contribute idea", "Trust building"],
+      "roles": ["Mọi vị trí"],
+      "level": {
+        "1": "Đội nhỏ, established goals",
+        "2": "Đa chức năng, cross-functional",
+        "3": "Tập đoàn, global teams"
+      }
+    },
+    "6_customer_focus": {
+      "name": "Customer Focus",
+      "description": "Khả năng hiểu nhu cầu khách hàng, lấy khách hàng làm trọng tâm",
+      "indicators": ["Hiểu khách hàng", "Empathy", "Service mindset", "Feedback seeking", "User-centric"],
+      "roles": ["Sales", "CS", "Product", "Marketing"],
+      "level": {
+        "1": "Transactional, reactive",
+        "2": "Relationship, proactive",
+        "3": "Strategic partnership, long-term"
+      }
+    },
+    "7_innovation": {
+      "name": "Innovation & Creativity",
+      "description": "Khả năng sáng tạo, đưa ra ý tưởng mới, cải tiến",
+      "indicators": ["New idea", "Improve process", "Creative solution", "Experiment", "Continuous improvement"],
+      "roles": ["R&D", "Product", "Marketing", "Design", "Startup"],
+      "level": {
+        "1": "Incremental improvement",
+        "2": "Process innovation",
+        "3": "Disruptive innovation, strategy"
+      }
+    },
+    "8_integrity": {
+      "name": "Integrity & Ethics",
+      "description": "Khả năng hành động đúng đắn, trung thực, có đạo đức",
+      "indicators": ["Honest", "Follow rules", "Keep promise", "Ethical decision", "Responsibility"],
+      "roles": ["Mọi vị trí"],
+      "level": {
+        "1": "Basic compliance",
+        "2": "Proactive, transparent",
+        "3": "Cultural leader, whistle-blower"
+      }
+    },
+    "9_adaptability": {
+      "name": "Adaptability & Learning",
+      "description": "Khả năng thích ứng với thay đổi, học hỏi, linh hoạt",
+      "indicators": ["Change-ready", "Learn quickly", "Flexible", "Growth mindset", "Handle ambiguity"],
+      "roles": ["Startup", "Agile", "Rapid growth"],
+      "level": {
+        "1": "Follow new process",
+        "2": "Suggest improvement",
+        "3": "Lead transformation"
+      }
+    },
+    "10_initiative": {
+      "name": "Initiative & Ownership",
+      "description": "Khả năng chủ động, lấy ownership, không cần supervision",
+      "indicators": ["Proactive", "Take ownership", "Self-motivated", "Go extra mile", "Accountability"],
+      "roles": ["Startup", "Cao cấp", "Specialized role"],
+      "level": {
+        "1": "Task-level ownership",
+        "2": "Project-level ownership",
+        "3": "Strategic ownership"
+      }
+    },
+    "11_financial": {
+      "name": "Financial Acumen",
+      "description": "Khả năng hiểu tài chính, quản lý ngân sách, cost-awareness",
+      "indicators": ["Understand P&L", "Budget management", "Cost control", "ROI thinking", "Financial analysis"],
+      "roles": ["CFO", "Controller", "Quản lý", "Product"],
+      "level": {
+        "1": "Track spending",
+        "2": "Manage budget",
+        "3": "Strategic planning, P&L ownership"
+      }
+    },
+    "12_attention_to_detail": {
+      "name": "Attention to Detail",
+      "description": "Khả năng chú ý chi tiết, kiểm soát chất lượng, không bỏ sót",
+      "indicators": ["Quality control", "Proofread", "Process compliance", "Accuracy", "Documentation"],
+      "roles": ["QA", "Kế toán", "Hành chính", "Legal"],
+      "level": {
+        "1": "Internal documents",
+        "2": "Customer-facing, complex",
+        "3": "Regulatory, compliance, critical"
+      }
+    },
+    "13_stress_management": {
+      "name": "Stress Management & Resilience",
+      "description": "Khả năng quản lý stress, cục xử áp lực, kiên trì",
+      "indicators": ["Stay calm", "Handle pressure", "Resilient", "Manage emotion", "Bounce back"],
+      "roles": ["Sales", "Crisis management", "Startup", "High-pace"],
+      "level": {
+        "1": "Occasional high-pressure",
+        "2": "Regular deadline, competitive",
+        "3": "Constant crisis, strategic decisions"
+      }
+    },
+    "14_technical_expertise": {
+      "name": "Technical Expertise",
+      "description": "Khả năng trong lĩnh vực kỹ thuật chuyên biệt",
+      "indicators": ["Domain knowledge", "Technical skill", "Problem-solving", "Tool proficiency", "Stay updated"],
+      "roles": ["Engineer", "IT", "Specialist", "Scientist"],
+      "level": {
+        "1": "Junior level",
+        "2": "Senior level",
+        "3": "Architect, thought leader"
+      }
+    },
+    "15_coaching": {
+      "name": "Coaching & Mentoring",
+      "description": "Khả năng hỗ trợ phát triển người khác, mentoring, teaching",
+      "indicators": ["Develop people", "Mentor", "Feedback quality", "Patient", "Empower others"],
+      "roles": ["Manager", "Senior", "Trainer", "Coach"],
+      "level": {
+        "1": "Ad-hoc coaching",
+        "2": "Structured coaching, 1-2 people",
+        "3": "Program leadership, culture"
+      }
+    }
+  },
+  "roleProfiles": {
+    "hanh_chinh": {
+      "title": "Nhân viên Hành chính",
+      "level": "Entry to Mid",
+      "criticalCompetencies": [
+        "organization",
+        "attention_to_detail",
+        "communication",
+        "teamwork",
+        "integrity"
+      ],
+      "desiredCompetencies": [
+        "customer_focus",
+        "adaptability",
+        "initiative"
+      ],
+      "starQuestions": [
+        {
+          "id": 1,
+          "situation": "Bạn phải xử lý một hồ sơ gấp có 50 trang từ 5 phòng ban khác nhau, có deadline hôm nay 5h chiều.",
+          "task": "Công việc của bạn là ghi nhận, phân loại, kiểm tra tính chính xác, và gửi những phiếu xin ý kiến cần thiết.",
+          "question": "Hãy kể cách bạn xử lý tình huống này. Bạn sẽ ưu tiên thế nào?",
+          "evaluateCriteria": ["organization", "attention_to_detail", "communication", "stress_management"],
+          "idealAnswer": "Phân loại ngay theo tên người đề nghị, kiểm tra completeness, soạn checklist bỏ sót, cập nhật tiến độ cho sếp mỗi 1h, xin ý kiến song song thay vì tuần tự"
+        },
+        {
+          "id": 2,
+          "situation": "Bạn phát hiện một lỗi trong công văn đã gửi ra ngoài tuần trước.",
+          "task": "Công việc của bạn là báo cáo và khắc phục.",
+          "question": "Bạn sẽ xử lý như thế nào?",
+          "evaluateCriteria": ["integrity", "initiative", "communication", "attention_to_detail"],
+          "idealAnswer": "Báo cáo ngay sếp, xác định scope lỗi (bao nhiêu bản gửi đi), soạn bản sửa với letter giải thích, gửi lại với xin lỗi, cập nhật quy trình để tránh lặp lại"
+        },
+        {
+          "id": 3,
+          "situation": "Một bộ phận khác yêu cầu 3 tài liệu trong vòng 2 tiếng, nhưng bạn đang bận với dự án lớn của sếp. Cả 2 công việc đều khẩn cấp.",
+          "task": "Bạn cần quyết định giữa hai việc.",
+          "question": "Bạn sẽ xử lý tình huống này như thế nào?",
+          "evaluateCriteria": ["organization", "communication", "stress_management", "teamwork"],
+          "idealAnswer": "Gọi sếp (2 phút) xin priority, báo bộ phận khác scope + time cần, chia công việc với synergies nếu có, đảm bảo deadline cả hai"
+        }
+      ]
+    },
+    "ke_toan": {
+      "title": "Nhân viên Kế Toán",
+      "level": "Entry to Senior",
+      "criticalCompetencies": [
+        "attention_to_detail",
+        "analytical",
+        "organization",
+        "integrity",
+        "financial"
+      ],
+      "desiredCompetencies": [
+        "communication",
+        "teamwork",
+        "initiative",
+        "technical_expertise"
+      ],
+      "starQuestions": [
+        {
+          "id": 1,
+          "situation": "Bạn phát hiện 10 triệu đồng chênh lệch trong sổ cái cuối tháng, chỉ còn 30 phút để close month.",
+          "task": "Tìm nguyên nhân và khắc phục.",
+          "question": "Bạn sẽ làm gì?",
+          "evaluateCriteria": ["analytical", "attention_to_detail", "stress_management"],
+          "idealAnswer": "Tạm dừng close, trace từ journal entries, kiểm tra 3 tài khoản chính (reconciliation lớn), tìm entry sai, reverse & correct, notify GL nếu need"
+        },
+        {
+          "id": 2,
+          "situation": "Bạn được yêu cầu soạn bảng tính phân tích chi phí cho 50 chi nhánh, mỗi chi nhánh 200+ line item. Deadline: ngày mai sáng.",
+          "task": "Tối ưu hóa quy trình để hoàn thành đúng thời gian và chính xác.",
+          "question": "Bạn sẽ xử lý như thế nào?",
+          "evaluateCriteria": ["organization", "technical_expertise", "initiative", "attention_to_detail"],
+          "idealAnswer": "Pull data từ DB thay vì copy-paste, dùng pivot table, formula validation, spot-check 10% trước khi submit, document formula cho audit"
+        }
+      ]
+    },
+    "sales": {
+      "title": "Nhân viên Sales",
+      "level": "Entry to Senior",
+      "criticalCompetencies": [
+        "communication",
+        "customer_focus",
+        "teamwork",
+        "stress_management",
+        "initiative"
+      ],
+      "desiredCompetencies": [
+        "analytical",
+        "adaptability",
+        "coaching",
+        "integrity"
+      ],
+      "starQuestions": [
+        {
+          "id": 1,
+          "situation": "Khách hàng lớn đang xem xét hai nhà cung cấp (kể cả competitor của chúng ta). Bạn vừa biết competitor đang offer giá thấp hơn 20%.",
+          "task": "Giữ được deal mà không giảm giá quá mức.",
+          "question": "Bạn sẽ tiếp cận khách hàng như thế nào?",
+          "evaluateCriteria": ["communication", "customer_focus", "analytical", "integrity"],
+          "idealAnswer": "Hỏi khách về priority (giá vs chất lượng vs support), highlight value-add (service, support, reliability), propose terms khác (payment, commitment), walk nếu logic không hợp"
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Nhân viên Marketing",
+      "level": "Entry to Senior",
+      "criticalCompetencies": [
+        "communication",
+        "analytical",
+        "innovation",
+        "customer_focus"
+      ],
+      "desiredCompetencies": [
+        "teamwork",
+        "financial",
+        "adaptability",
+        "initiative"
+      ]
+    },
+    "it": {
+      "title": "Nhân viên IT",
+      "level": "Entry to Senior",
+      "criticalCompetencies": [
+        "technical_expertise",
+        "analytical",
+        "problem_solving",
+        "communication",
+        "attention_to_detail"
+      ],
+      "desiredCompetencies": [
+        "teamwork",
+        "customer_focus",
+        "initiative",
+        "stress_management"
+      ]
+    },
+    "hr": {
+      "title": "Nhân viên HR",
+      "level": "Entry to Senior",
+      "criticalCompetencies": [
+        "communication",
+        "teamwork",
+        "customer_focus",
+        "integrity",
+        "coaching"
+      ],
+      "desiredCompetencies": [
+        "analytical",
+        "organization",
+        "adaptability",
+        "initiative"
+      ]
+    },
+    "giam_doc": {
+      "title": "Giám đốc",
+      "level": "Senior to Executive",
+      "criticalCompetencies": [
+        "leadership",
+        "analytical",
+        "financial",
+        "integrity",
+        "communication",
+        "strategic_thinking"
+      ],
+      "desiredCompetencies": [
+        "innovation",
+        "coaching",
+        "adaptability",
+        "customer_focus"
+      ]
+    }
+  },
+  "starTemplate": {
+    "format": {
+      "situation": "Mô tả bối cảnh, context, constraints",
+      "task": "Mô tả nhiệm vụ cụ thể của bạn",
+      "action": "Những bước bạn thực hiện (chứ không phải những gì bạn sẽ làm)",
+      "result": "Kết quả cụ thể, có số liệu nếu có được"
+    },
+    "scoringRubric": {
+      "5_points_excellent": "Specific, detailed, owned action, clear positive result, learned lesson",
+      "4_points_good": "Clear situation + action, mostly owned, good result",
+      "3_points_adequate": "Some detail but generic, unclear ownership, mixed result",
+      "2_points_weak": "Vague, lots of 'we', result unclear",
+      "1_point_poor": "Very vague, not really STAR, unclear what happened"
+    },
+    "redFlags": [
+      "Nói 'we' thay vì 'I' (không clear ownership)",
+      "Chỉ mô tả situation, quên action & result",
+      "Không có con số, metric cụ thể",
+      "Kết quả negative hoặc không học được gì",
+      "Quá generic, có thể apply cho ai cũng được"
+    ]
+  }
+}
