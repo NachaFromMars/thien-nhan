@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "name": "Big Five OCEAN Personality Assessment",
+    "version": "1.0",
+    "source": "Costa & McCrae (NEO-PI-R) + IPIP Big Five",
+    "totalQuestions": 50,
+    "timeLimit": 20,
+    "description": "Đánh giá 5 yếu tố tính cách: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism",
+    "scale": "1-5 Likert (Strongly Disagree to Strongly Agree)"
+  },
+  "instructions": {
+    "vi": "Đánh giá mức độ đồng ý với mỗi phát biểu từ 1 (Hoàn toàn không đồng ý) đến 5 (Hoàn toàn đồng ý). Không có đáp án đúng/sai — hãy trung thực.",
+    "en": "Rate your agreement with each statement from 1 (Strongly Disagree) to 5 (Strongly Agree). No right/wrong answers — be honest."
+  },
+  "scale": {
+    "1": "Hoàn toàn không đồng ý",
+    "2": "Không đồng ý",
+    "3": "Trung lập",
+    "4": "Đồng ý",
+    "5": "Hoàn toàn đồng ý"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi thích thử những ý tưởng và hoạt động mới lạ",
+      "reverse": false
+    },
+    {
+      "id": 2,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi luyên thuyên, không biết chú ý vào điều gì",
+      "reverse": true
+    },
+    {
+      "id": 3,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi là người hướng ngoại, thích giao tiếp",
+      "reverse": false
+    },
+    {
+      "id": 4,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi thường bắt đầu tranh cãi với người khác",
+      "reverse": true
+    },
+    {
+      "id": 5,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi dễ bị lo lắng, căng thẳng",
+      "reverse": false
+    },
+    {
+      "id": 6,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi có khanh khám các điều sâu sắc, phức tạp",
+      "reverse": false
+    },
+    {
+      "id": 7,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi hoàn thành công việc một cách kỹ lưỡng",
+      "reverse": false
+    },
+    {
+      "id": 8,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi hay khép mình, không mở lòng với người khác",
+      "reverse": true
+    },
+    {
+      "id": 9,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi quan tâm đến cảm xúc của người khác",
+      "reverse": false
+    },
+    {
+      "id": 10,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi vui vẻ, hài lòng với cuộc sống",
+      "reverse": true
+    },
+    {
+      "id": 11,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi thích sự thay đổi, đa dạng",
+      "reverse": false
+    },
+    {
+      "id": 12,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi hay để công việc bỏ dở, không kiên trì",
+      "reverse": true
+    },
+    {
+      "id": 13,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi thích nổi bật, được chú ý",
+      "reverse": false
+    },
+    {
+      "id": 14,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi giúp đỡ người khác dễ dàng",
+      "reverse": false
+    },
+    {
+      "id": 15,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi cảm thấy tức giận dễ dàng",
+      "reverse": false
+    },
+    {
+      "id": 16,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi thích quy tắc, hình thức, cách truyền thống",
+      "reverse": true
+    },
+    {
+      "id": 17,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi lập kế hoạch chi tiết cho các dự án",
+      "reverse": false
+    },
+    {
+      "id": 18,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi tham gia các cuộc tụ tập xã hội",
+      "reverse": false
+    },
+    {
+      "id": 19,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi có thể có cái tư lợi cao",
+      "reverse": true
+    },
+    {
+      "id": 20,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi hay buồn, lao đao",
+      "reverse": false
+    },
+    {
+      "id": 21,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi có tưởng tượng phong phú",
+      "reverse": false
+    },
+    {
+      "id": 22,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi luôn sắp xếp mọi thứ gọn gàng",
+      "reverse": false
+    },
+    {
+      "id": 23,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi yên tĩnh xung quanh người lạ",
+      "reverse": true
+    },
+    {
+      "id": 24,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi tin tưởng mọi người",
+      "reverse": false
+    },
+    {
+      "id": 25,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi dễ tự ti, thiếu tự tin",
+      "reverse": false
+    },
+    {
+      "id": 26,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi thích phân tích các vấn đề sâu sắc",
+      "reverse": false
+    },
+    {
+      "id": 27,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi chuẩn bị không chu đáo cho các công việc",
+      "reverse": true
+    },
+    {
+      "id": 28,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi là đạo diễn của những cuộc tụ tập",
+      "reverse": false
+    },
+    {
+      "id": 29,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi quan tâm chính mình trước tiên",
+      "reverse": true
+    },
+    {
+      "id": 30,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi bình tĩnh trong các tình huống căng thẳng",
+      "reverse": true
+    },
+    {
+      "id": 31,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi thích con đường quen thuộc hơn những con đường mới",
+      "reverse": true
+    },
+    {
+      "id": 32,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi chú ý đến chi tiết",
+      "reverse": false
+    },
+    {
+      "id": 33,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi dành nhiều thời gian 1 mình",
+      "reverse": true
+    },
+    {
+      "id": 34,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi khó cảm thấy yêu thương người khác",
+      "reverse": true
+    },
+    {
+      "id": 35,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi rất thích bản thân mình",
+      "reverse": true
+    },
+    {
+      "id": 36,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi làm việc bằng trí tưởng tượng, không logic",
+      "reverse": false
+    },
+    {
+      "id": 37,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi bỏ cuộc khi gặp khó khăn",
+      "reverse": true
+    },
+    {
+      "id": 38,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi nói chuyện với nhiều người khác nhau",
+      "reverse": false
+    },
+    {
+      "id": 39,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi cảm thấy vui khi giúp người khác",
+      "reverse": false
+    },
+    {
+      "id": 40,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi lo lắng về điều có thể xảy ra",
+      "reverse": false
+    },
+    {
+      "id": 41,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi ngợi ca những giá trị truyền thống",
+      "reverse": true
+    },
+    {
+      "id": 42,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi hoàn thành công việc trước hạn",
+      "reverse": false
+    },
+    {
+      "id": 43,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi khác biệt so với người khác",
+      "reverse": false
+    },
+    {
+      "id": 44,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi mâu thuẫn với người khác",
+      "reverse": true
+    },
+    {
+      "id": 45,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi gặp khó khăn trong việc quên đi những điều xấu",
+      "reverse": false
+    },
+    {
+      "id": 46,
+      "factor": "O",
+      "trait": "Openness",
+      "statement": "Tôi thích các loại nghệ thuật và văn học",
+      "reverse": false
+    },
+    {
+      "id": 47,
+      "factor": "C",
+      "trait": "Conscientiousness",
+      "statement": "Tôi để công việc tối hậu",
+      "reverse": true
+    },
+    {
+      "id": 48,
+      "factor": "E",
+      "trait": "Extraversion",
+      "statement": "Tôi có năng lượng cao, hiếu động",
+      "reverse": false
+    },
+    {
+      "id": 49,
+      "factor": "A",
+      "trait": "Agreeableness",
+      "statement": "Tôi thông cảm với cảm xúc của người khác",
+      "reverse": false
+    },
+    {
+      "id": 50,
+      "factor": "N",
+      "trait": "Neuroticism",
+      "statement": "Tôi cảm thấy bất lực trong các tình huống",
+      "reverse": false
+    }
+  ],
+  "scoring": {
+    "method": "Sum responses per factor (O/C/E/A/N), then normalize 0-100",
+    "factors": {
+      "O": {
+        "name": "Openness to Experience",
+        "nameVi": "Cởi Mở",
+        "emoji": "🎨",
+        "description": "Khám phá, sáng tạo, trí tưởng tượng, đón nhận thay đổi",
+        "highTraits": ["Sáng tạo", "Tò mò", "Trí tưởng tượng", "Yêu thích nghệ thuật"],
+        "lowTraits": ["Thực tế", "Thích truyền thống", "Ưa ổn định"],
+        "careers": ["Nghệ sĩ", "Nhà khoa học", "Nhà thiết kế", "Startup founder", "Sáng tác gia"],
+        "strength": ["Sáng tạo giải pháp", "Thích học hỏi", "Linh hoạt trong suy nghĩ"],
+        "weakness": ["Khó tập trung", "Hay bỏ cuộc", "Không thực tế"]
+      },
+      "C": {
+        "name": "Conscientiousness",
+        "nameVi": "Tận Tâm",
+        "emoji": "⚙️",
+        "description": "Có tổ chức, kỷ luật, chịu trách nhiệm, làm việc cần cù",
+        "highTraits": ["Có tổ chức", "Kỷ luật", "Đáng tin cậy", "Hoàn thiện"],
+        "lowTraits": ["Lên kế hoạch tự do", "Sống tự phát"],
+        "careers": ["Kế toán", "Quản lý dự án", "Hành chính", "QA/QC", "Thầy cô", "Luật sư"],
+        "strength": ["Hoàn thành deadline", "Chất lượng cao", "Có tổ chức tốt"],
+        "weakness": ["Cứng nhắc", "Hay lo lắng", "Khó thích ứng"]
+      },
+      "E": {
+        "name": "Extraversion",
+        "nameVi": "Hướng Ngoại",
+        "emoji": "⚡",
+        "description": "Xã hội, nhiệt tình, năng lượng cao, thích giao tiếp",
+        "highTraits": ["Xã hội", "Tự tin", "Năng lượng cao", "Chủ động"],
+        "lowTraits": ["Khép mình", "Suy tư", "Thích yên tĩnh"],
+        "careers": ["Sales", "PR", "Quản lý", "Giáo viên", "Event planner", "Doanh nhân"],
+        "strength": ["Giao tiếp tốt", "Truyền cảm hứng", "Lãnh đạo"],
+        "weakness": ["Tìm kiếm sự chú ý", "Khó tập trung", "Thiếu sâu sắc"]
+      },
+      "A": {
+        "name": "Agreeableness",
+        "nameVi": "Dễ Chịu",
+        "emoji": "🤝",
+        "description": "Hợp tác, lăng mạn, đồng cảm, tin tưởng, yêu thương",
+        "highTraits": ["Hợp tác", "Đồng cảm", "Tin tưởng", "Yêu thương"],
+        "lowTraits": ["Cạnh tranh", "Chỉ trích", "Bảo vệ bản thân"],
+        "careers": ["Tâm lý gia", "Nhân viên HR", "Xã hội công tác", "Giáo viên", "Chăm sóc sức khỏe", "Trung gian"],
+        "strength": ["Teamwork", "Đồng cảm tốt", "Giải quyết xung đột"],
+        "weakness": ["Không thích xung đột", "Hay bị lợi dụng", "Khó đưa ra quyết định khó"]
+      },
+      "N": {
+        "name": "Neuroticism (Negative Affectivity)",
+        "nameVi": "Thần Kinh Trạng",
+        "emoji": "😰",
+        "description": "Lo lắng, sợ hãi, buồn rầu, xấu hổ, dễ cáu gắt (cao = không ổn định)",
+        "highTraits": ["Lo lắng", "Buồn rầu", "Cáu gắt", "Nhạy cảm", "Tự ti"],
+        "lowTraits": ["Bình tĩnh", "Ổn định cảm xúc", "Tự tin"],
+        "strength": ["Nhạy cảm với chi tiết", "Chuẩn bị chu đáo", "Suy tư"],
+        "weakness": ["Dễ bị stress", "Lo lắng quá mức", "Khó tập trung dưới áp lực"],
+        "note": "ĐIỂM CAO = MỚI tên là 'Negative Affectivity' (khó chỉu). ĐIỂM THẤP = Emotional Stability (ổn định)"
+      }
+    },
+    "profiles": {
+      "0": {
+        "name": "Những người Chín Chắn Toàn Diện",
+        "description": "Cân bằng cao ở tất cả 5 yếu tố. Thích ứng tốt trong mọi tình huống.",
+        "careers": ["Lãnh đạo", "Cố vấn", "Giám đốc CEO"],
+        "emoji": "🌟"
+      },
+      "high_O_high_C": {
+        "name": "Nhà Sáng Tạo Có Kỷ Luật",
+        "description": "Vừa sáng tạo vừa có tổ chức. Hoàn hảo cho những dự án sáng tạo cần chuẩn mực.",
+        "careers": ["Quản lý thiết kế", "Quản lý dự án sáng tạo", "Nhà kiến trúc"],
+        "emoji": "🎨⚙️"
+      },
+      "high_E_high_A": {
+        "name": "Người Xã Hội Tốt Bụng",
+        "description": "Vừa ngoại hướng vừa dễ chịu. Tuyệt vời cho khách hàng và nhóm.",
+        "careers": ["Sales", "HR", "Customer Success", "Tư vấn", "Lãnh đạo nhân sự"],
+        "emoji": "⚡🤝"
+      },
+      "low_N_high_C": {
+        "name": "Người Ổn Định Đáng Tin",
+        "description": "Ít lo lắng, rất tổ chức. Hoàn hảo cho vai trò chuyên biệt.",
+        "careers": ["Kế toán", "Kiểm toán", "Hành chính", "Dược sĩ"],
+        "emoji": "⚙️💎"
+      },
+      "high_N_high_E": {
+        "name": "Người Năng Động Nhạy Cảm",
+        "description": "Ngoài hoạt động nhưng dễ bị stress. Cần hỗ trợ tâm lý.",
+        "careers": ["Sales (với coaching)", "Giáo viên (với support)", "Tư vấn (với mentoring)"],
+        "emoji": "⚡😰"
+      }
+    }
+  }
+}
