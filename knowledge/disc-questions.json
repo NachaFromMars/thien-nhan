@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "name": "DISC Personality Assessment",
+    "version": "1.0",
+    "source": "William Marston (1928) + Modern DISC frameworks",
+    "totalQuestions": 40,
+    "timeLimit": 15,
+    "description": "Đánh giá 4 nhóm tính cách: Dominance, Influence, Steadiness, Compliance"
+  },
+  "instructions": {
+    "vi": "Chọn MỘT phát biểu MÔ TẢ BẠN NHẤT trong mỗi nhóm 4 câu. Không có đáp án đúng/sai — hãy chọn theo bản năng đầu tiên.",
+    "en": "Choose the ONE statement that BEST describes you in each group of 4. There are no right/wrong answers — go with your first instinct."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "group": 1,
+      "options": [
+        {"text": "Tôi thích đi thẳng vào vấn đề", "trait": "D", "vi": "Tôi thích đi thẳng vào vấn đề", "en": "I like getting straight to the point"},
+        {"text": "Tôi thích thuyết phục người khác", "trait": "I", "vi": "Tôi thích thuyết phục người khác", "en": "I enjoy persuading others"},
+        {"text": "Tôi thích môi trường ổn định", "trait": "S", "vi": "Tôi thích môi trường ổn định", "en": "I prefer a stable environment"},
+        {"text": "Tôi thích làm việc chính xác", "trait": "C", "vi": "Tôi thích làm việc chính xác", "en": "I like working with precision"}
+      ]
+    },
+    {
+      "id": 2,
+      "group": 2,
+      "options": [
+        {"text": "Tôi quyết đoán trong mọi tình huống", "trait": "D"},
+        {"text": "Tôi tạo bầu không khí vui vẻ", "trait": "I"},
+        {"text": "Tôi kiên nhẫn lắng nghe người khác", "trait": "S"},
+        {"text": "Tôi tuân thủ quy trình nghiêm ngặt", "trait": "C"}
+      ]
+    },
+    {
+      "id": 3,
+      "group": 3,
+      "options": [
+        {"text": "Tôi thích thử thách và cạnh tranh", "trait": "D"},
+        {"text": "Tôi thích gặp gỡ người mới", "trait": "I"},
+        {"text": "Tôi trung thành với nhóm của mình", "trait": "S"},
+        {"text": "Tôi phân tích kỹ trước khi quyết định", "trait": "C"}
+      ]
+    },
+    {
+      "id": 4,
+      "group": 4,
+      "options": [
+        {"text": "Tôi không ngại đưa ra quyết định khó", "trait": "D"},
+        {"text": "Tôi truyền cảm hứng cho người xung quanh", "trait": "I"},
+        {"text": "Tôi làm việc theo nhịp độ đều đặn", "trait": "S"},
+        {"text": "Tôi chú ý đến từng chi tiết nhỏ", "trait": "C"}
+      ]
+    },
+    {
+      "id": 5,
+      "group": 5,
+      "options": [
+        {"text": "Tôi muốn kiểm soát kết quả", "trait": "D"},
+        {"text": "Tôi muốn mọi người vui vẻ", "trait": "I"},
+        {"text": "Tôi muốn sự hài hòa trong nhóm", "trait": "S"},
+        {"text": "Tôi muốn mọi thứ được làm đúng cách", "trait": "C"}
+      ]
+    },
+    {
+      "id": 6,
+      "group": 6,
+      "options": [
+        {"text": "Khi gặp trở ngại, tôi tìm cách vượt qua ngay", "trait": "D"},
+        {"text": "Khi gặp trở ngại, tôi tìm người giúp đỡ", "trait": "I"},
+        {"text": "Khi gặp trở ngại, tôi bình tĩnh chờ đợi", "trait": "S"},
+        {"text": "Khi gặp trở ngại, tôi phân tích nguyên nhân", "trait": "C"}
+      ]
+    },
+    {
+      "id": 7,
+      "group": 7,
+      "options": [
+        {"text": "Tôi nói ngắn gọn, đi thẳng vấn đề", "trait": "D"},
+        {"text": "Tôi nói nhiều, hay kể chuyện", "trait": "I"},
+        {"text": "Tôi lắng nghe nhiều hơn nói", "trait": "S"},
+        {"text": "Tôi hỏi nhiều câu hỏi chi tiết", "trait": "C"}
+      ]
+    },
+    {
+      "id": 8,
+      "group": 8,
+      "options": [
+        {"text": "Tôi ghét lãng phí thời gian", "trait": "D"},
+        {"text": "Tôi ghét bị cô lập, làm việc một mình", "trait": "I"},
+        {"text": "Tôi ghét thay đổi đột ngột", "trait": "S"},
+        {"text": "Tôi ghét sự cẩu thả, bừa bộn", "trait": "C"}
+      ]
+    },
+    {
+      "id": 9,
+      "group": 9,
+      "options": [
+        {"text": "Tôi ra quyết định nhanh", "trait": "D"},
+        {"text": "Tôi ra quyết định dựa trên cảm xúc", "trait": "I"},
+        {"text": "Tôi cần thời gian suy nghĩ trước khi quyết định", "trait": "S"},
+        {"text": "Tôi ra quyết định dựa trên dữ liệu", "trait": "C"}
+      ]
+    },
+    {
+      "id": 10,
+      "group": 10,
+      "options": [
+        {"text": "Người khác thấy tôi mạnh mẽ, quyết đoán", "trait": "D"},
+        {"text": "Người khác thấy tôi vui vẻ, nhiệt tình", "trait": "I"},
+        {"text": "Người khác thấy tôi dễ chịu, đáng tin", "trait": "S"},
+        {"text": "Người khác thấy tôi cẩn thận, có tổ chức", "trait": "C"}
+      ]
+    },
+    {
+      "id": 11,
+      "group": 11,
+      "options": [
+        {"text": "Tôi thích lãnh đạo dự án", "trait": "D"},
+        {"text": "Tôi thích brainstorm ý tưởng mới", "trait": "I"},
+        {"text": "Tôi thích hỗ trợ nhóm hoàn thành mục tiêu", "trait": "S"},
+        {"text": "Tôi thích kiểm tra chất lượng", "trait": "C"}
+      ]
+    },
+    {
+      "id": 12,
+      "group": 12,
+      "options": [
+        {"text": "Dưới áp lực, tôi trở nên quyết liệt hơn", "trait": "D"},
+        {"text": "Dưới áp lực, tôi tìm cách giải tỏa bằng nói chuyện", "trait": "I"},
+        {"text": "Dưới áp lực, tôi rút lui và cần thời gian riêng", "trait": "S"},
+        {"text": "Dưới áp lực, tôi tập trung vào chi tiết hơn", "trait": "C"}
+      ]
+    },
+    {
+      "id": 13,
+      "group": 13,
+      "options": [
+        {"text": "Thành công với tôi là đạt kết quả cụ thể", "trait": "D"},
+        {"text": "Thành công với tôi là được mọi người công nhận", "trait": "I"},
+        {"text": "Thành công với tôi là cuộc sống cân bằng", "trait": "S"},
+        {"text": "Thành công với tôi là hoàn thiện bản thân", "trait": "C"}
+      ]
+    },
+    {
+      "id": 14,
+      "group": 14,
+      "options": [
+        {"text": "Tôi sợ bị lợi dụng", "trait": "D"},
+        {"text": "Tôi sợ bị bỏ rơi, không được quan tâm", "trait": "I"},
+        {"text": "Tôi sợ mất sự ổn định", "trait": "S"},
+        {"text": "Tôi sợ mắc sai lầm", "trait": "C"}
+      ]
+    },
+    {
+      "id": 15,
+      "group": 15,
+      "options": [
+        {"text": "Tôi thể hiện sự tức giận trực tiếp", "trait": "D"},
+        {"text": "Tôi cố gắng làm nhẹ tình huống bằng hài hước", "trait": "I"},
+        {"text": "Tôi giấu cảm xúc và chịu đựng", "trait": "S"},
+        {"text": "Tôi phân tích xem ai đúng ai sai", "trait": "C"}
+      ]
+    },
+    {
+      "id": 16,
+      "group": 16,
+      "options": [
+        {"text": "Tôi thích môi trường thay đổi nhanh", "trait": "D"},
+        {"text": "Tôi thích môi trường sáng tạo, linh hoạt", "trait": "I"},
+        {"text": "Tôi thích môi trường dự đoán được", "trait": "S"},
+        {"text": "Tôi thích môi trường có quy trình rõ ràng", "trait": "C"}
+      ]
+    },
+    {
+      "id": 17,
+      "group": 17,
+      "options": [
+        {"text": "Điểm mạnh: Tập trung kết quả", "trait": "D"},
+        {"text": "Điểm mạnh: Kết nối con người", "trait": "I"},
+        {"text": "Điểm mạnh: Kiên nhẫn, bền bỉ", "trait": "S"},
+        {"text": "Điểm mạnh: Phân tích, logic", "trait": "C"}
+      ]
+    },
+    {
+      "id": 18,
+      "group": 18,
+      "options": [
+        {"text": "Điểm yếu: Thiếu kiên nhẫn", "trait": "D"},
+        {"text": "Điểm yếu: Thiếu tập trung", "trait": "I"},
+        {"text": "Điểm yếu: Khó thích nghi thay đổi", "trait": "S"},
+        {"text": "Điểm yếu: Hay lo lắng quá mức", "trait": "C"}
+      ]
+    },
+    {
+      "id": 19,
+      "group": 19,
+      "options": [
+        {"text": "Khi làm việc nhóm, tôi dẫn dắt", "trait": "D"},
+        {"text": "Khi làm việc nhóm, tôi tạo năng lượng", "trait": "I"},
+        {"text": "Khi làm việc nhóm, tôi hỗ trợ mọi người", "trait": "S"},
+        {"text": "Khi làm việc nhóm, tôi kiểm soát chất lượng", "trait": "C"}
+      ]
+    },
+    {
+      "id": 20,
+      "group": 20,
+      "options": [
+        {"text": "Tôi đánh giá người khác qua năng lực", "trait": "D"},
+        {"text": "Tôi đánh giá người khác qua thái độ", "trait": "I"},
+        {"text": "Tôi đánh giá người khác qua sự chân thành", "trait": "S"},
+        {"text": "Tôi đánh giá người khác qua sự chuyên nghiệp", "trait": "C"}
+      ]
+    },
+    {
+      "id": 21,
+      "group": 21,
+      "options": [
+        {"text": "Mô tả tôi: Mạnh mẽ", "trait": "D"},
+        {"text": "Mô tả tôi: Hấp dẫn", "trait": "I"},
+        {"text": "Mô tả tôi: Đáng tin cậy", "trait": "S"},
+        {"text": "Mô tả tôi: Chuẩn mực", "trait": "C"}
+      ]
+    },
+    {
+      "id": 22,
+      "group": 22,
+      "options": [
+        {"text": "Tôi được thúc đẩy bởi quyền lực và thành tựu", "trait": "D"},
+        {"text": "Tôi được thúc đẩy bởi sự công nhận xã hội", "trait": "I"},
+        {"text": "Tôi được thúc đẩy bởi sự an toàn và ổn định", "trait": "S"},
+        {"text": "Tôi được thúc đẩy bởi kiến thức và sự hoàn hảo", "trait": "C"}
+      ]
+    },
+    {
+      "id": 23,
+      "group": 23,
+      "options": [
+        {"text": "Email của tôi thường ngắn, direct, chỉ key points", "trait": "D"},
+        {"text": "Email của tôi thường dài, friendly, nhiều emoji", "trait": "I"},
+        {"text": "Email của tôi thường lịch sự, warm, hỏi thăm", "trait": "S"},
+        {"text": "Email của tôi thường chi tiết, có bullet points, data", "trait": "C"}
+      ]
+    },
+    {
+      "id": 24,
+      "group": 24,
+      "options": [
+        {"text": "Cuối tuần tôi thích thử thách mới (leo núi, racing)", "trait": "D"},
+        {"text": "Cuối tuần tôi thích gặp bạn bè, party", "trait": "I"},
+        {"text": "Cuối tuần tôi thích ở nhà, đọc sách, nấu ăn", "trait": "S"},
+        {"text": "Cuối tuần tôi thích sắp xếp nhà cửa, lên kế hoạch", "trait": "C"}
+      ]
+    },
+    {
+      "id": 25,
+      "group": 25,
+      "options": [
+        {"text": "Tôi nổi giận khi bị cản trở", "trait": "D"},
+        {"text": "Tôi nổi giận khi bị phớt lờ", "trait": "I"},
+        {"text": "Tôi nổi giận khi bị ép thay đổi đột ngột", "trait": "S"},
+        {"text": "Tôi nổi giận khi bị chỉ trích về chất lượng công việc", "trait": "C"}
+      ]
+    },
+    {
+      "id": 26,
+      "group": 26,
+      "options": [
+        {"text": "Sếp lý tưởng: Cho tôi quyền tự quyết", "trait": "D"},
+        {"text": "Sếp lý tưởng: Công nhận và khen ngợi tôi", "trait": "I"},
+        {"text": "Sếp lý tưởng: Hỗ trợ và quan tâm cá nhân", "trait": "S"},
+        {"text": "Sếp lý tưởng: Rõ ràng, có hệ thống, fair", "trait": "C"}
+      ]
+    },
+    {
+      "id": 27,
+      "group": 27,
+      "options": [
+        {"text": "Tôi thích dự án ngắn, kết quả nhanh", "trait": "D"},
+        {"text": "Tôi thích dự án nhiều tương tác với người", "trait": "I"},
+        {"text": "Tôi thích dự án dài hạn, ổn định", "trait": "S"},
+        {"text": "Tôi thích dự án đòi hỏi nghiên cứu sâu", "trait": "C"}
+      ]
+    },
+    {
+      "id": 28,
+      "group": 28,
+      "options": [
+        {"text": "Xung đột: Tôi đối đầu trực tiếp", "trait": "D"},
+        {"text": "Xung đột: Tôi cố gắng hòa giải bằng humor", "trait": "I"},
+        {"text": "Xung đột: Tôi né tránh, chờ nguội", "trait": "S"},
+        {"text": "Xung đột: Tôi dùng logic và bằng chứng", "trait": "C"}
+      ]
+    },
+    {
+      "id": 29,
+      "group": 29,
+      "options": [
+        {"text": "Tôi tự tin nói trước đám đông", "trait": "D"},
+        {"text": "Tôi yêu thích nói trước đám đông", "trait": "I"},
+        {"text": "Tôi ngại nhưng vẫn làm được nếu cần", "trait": "S"},
+        {"text": "Tôi chỉ nói khi đã chuẩn bị kỹ", "trait": "C"}
+      ]
+    },
+    {
+      "id": 30,
+      "group": 30,
+      "options": [
+        {"text": "Giá trị cốt lõi: Chiến thắng", "trait": "D"},
+        {"text": "Giá trị cốt lõi: Niềm vui", "trait": "I"},
+        {"text": "Giá trị cốt lõi: Sự hòa hợp", "trait": "S"},
+        {"text": "Giá trị cốt lõi: Sự chính xác", "trait": "C"}
+      ]
+    },
+    {
+      "id": 31,
+      "group": 31,
+      "options": [
+        {"text": "Học tập: Tôi muốn học nhanh, áp dụng ngay", "trait": "D"},
+        {"text": "Học tập: Tôi muốn học qua trao đổi, thảo luận", "trait": "I"},
+        {"text": "Học tập: Tôi muốn học từng bước, có hướng dẫn", "trait": "S"},
+        {"text": "Học tập: Tôi muốn hiểu sâu lý thuyết trước", "trait": "C"}
+      ]
+    },
+    {
+      "id": 32,
+      "group": 32,
+      "options": [
+        {"text": "Tôi thích công việc có tính cạnh tranh", "trait": "D"},
+        {"text": "Tôi thích công việc có nhiều giao tiếp", "trait": "I"},
+        {"text": "Tôi thích công việc có lịch trình cố định", "trait": "S"},
+        {"text": "Tôi thích công việc đòi hỏi sự chính xác cao", "trait": "C"}
+      ]
+    },
+    {
+      "id": 33,
+      "group": 33,
+      "options": [
+        {"text": "Câu cửa miệng: 'Kết quả thế nào?'", "trait": "D"},
+        {"text": "Câu cửa miệng: 'Mọi người nghĩ sao?'", "trait": "I"},
+        {"text": "Câu cửa miệng: 'Từ từ, không vội'", "trait": "S"},
+        {"text": "Câu cửa miệng: 'Có data chứng minh không?'", "trait": "C"}
+      ]
+    },
+    {
+      "id": 34,
+      "group": 34,
+      "options": [
+        {"text": "Được thưởng tôi muốn: Quyền hạn nhiều hơn", "trait": "D"},
+        {"text": "Được thưởng tôi muốn: Lời khen công khai", "trait": "I"},
+        {"text": "Được thưởng tôi muốn: Ngày nghỉ thêm", "trait": "S"},
+        {"text": "Được thưởng tôi muốn: Cơ hội học tập nâng cao", "trait": "C"}
+      ]
+    },
+    {
+      "id": 35,
+      "group": 35,
+      "options": [
+        {"text": "Phong cách quản lý tiền: Đầu tư mạo hiểm", "trait": "D"},
+        {"text": "Phong cách quản lý tiền: Chi tiêu thoải mái", "trait": "I"},
+        {"text": "Phong cách quản lý tiền: Tiết kiệm an toàn", "trait": "S"},
+        {"text": "Phong cách quản lý tiền: Lập ngân sách chi tiết", "trait": "C"}
+      ]
+    },
+    {
+      "id": 36,
+      "group": 36,
+      "options": [
+        {"text": "Khi bắt đầu việc mới, tôi muốn tự khám phá", "trait": "D"},
+        {"text": "Khi bắt đầu việc mới, tôi muốn có buddy/mentor", "trait": "I"},
+        {"text": "Khi bắt đầu việc mới, tôi muốn training bài bản", "trait": "S"},
+        {"text": "Khi bắt đầu việc mới, tôi muốn đọc tài liệu trước", "trait": "C"}
+      ]
+    },
+    {
+      "id": 37,
+      "group": 37,
+      "options": [
+        {"text": "Tôi hay nói 'Làm luôn đi!'", "trait": "D"},
+        {"text": "Tôi hay nói 'Nghe hay quá!'", "trait": "I"},
+        {"text": "Tôi hay nói 'Để tôi suy nghĩ thêm'", "trait": "S"},
+        {"text": "Tôi hay nói 'Cho tôi xem số liệu'", "trait": "C"}
+      ]
+    },
+    {
+      "id": 38,
+      "group": 38,
+      "options": [
+        {"text": "Điều tôi ghét nhất: Thiếu hiệu quả", "trait": "D"},
+        {"text": "Điều tôi ghét nhất: Sự nhàm chán", "trait": "I"},
+        {"text": "Điều tôi ghét nhất: Sự bất ổn", "trait": "S"},
+        {"text": "Điều tôi ghét nhất: Sự thiếu chuyên nghiệp", "trait": "C"}
+      ]
+    },
+    {
+      "id": 39,
+      "group": 39,
+      "options": [
+        {"text": "5 năm tới tôi muốn: Làm CEO/founder", "trait": "D"},
+        {"text": "5 năm tới tôi muốn: Có mạng lưới rộng khắp", "trait": "I"},
+        {"text": "5 năm tới tôi muốn: Cuộc sống ổn định, hạnh phúc", "trait": "S"},
+        {"text": "5 năm tới tôi muốn: Trở thành chuyên gia hàng đầu", "trait": "C"}
+      ]
+    },
+    {
+      "id": 40,
+      "group": 40,
+      "options": [
+        {"text": "Một từ mô tả tôi: Chiến binh", "trait": "D"},
+        {"text": "Một từ mô tả tôi: Ngôi sao", "trait": "I"},
+        {"text": "Một từ mô tả tôi: Bến đỗ", "trait": "S"},
+        {"text": "Một từ mô tả tôi: Kim cương", "trait": "C"}
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "Count selections per trait (D/I/S/C). Highest = Primary, second = Secondary.",
+    "profiles": {
+      "D": {
+        "name": "Dominance",
+        "nameVi": "Thống Trị",
+        "emoji": "🔥",
+        "traits": ["Quyết đoán", "Trực tiếp", "Mạnh mẽ", "Kết quả-oriented"],
+        "strengths": ["Ra quyết định nhanh", "Dẫn dắt dự án", "Giải quyết vấn đề", "Không sợ thử thách"],
+        "weaknesses": ["Thiếu kiên nhẫn", "Hay áp đặt", "Bỏ qua cảm xúc người khác"],
+        "idealRoles": ["CEO", "Giám đốc", "Quản lý dự án", "Doanh nhân", "Tư vấn chiến lược"],
+        "communicationTips": "Nói ngắn gọn, tập trung kết quả, cho quyền tự quyết",
+        "stressResponse": "Trở nên áp đặt, thiếu kiên nhẫn hơn"
+      },
+      "I": {
+        "name": "Influence",
+        "nameVi": "Ảnh Hưởng",
+        "emoji": "🌟",
+        "traits": ["Hướng ngoại", "Lạc quan", "Sáng tạo", "Thuyết phục"],
+        "strengths": ["Kết nối con người", "Truyền cảm hứng", "Brainstorm ý tưởng", "Tạo bầu không khí tích cực"],
+        "weaknesses": ["Thiếu tập trung", "Hay quên deadline", "Nói nhiều hơn làm"],
+        "idealRoles": ["Sales", "Marketing", "PR", "MC/Trainer", "Account Manager"],
+        "communicationTips": "Cho họ nói, công nhận ý tưởng, tạo không khí vui vẻ",
+        "stressResponse": "Trở nên hời hợt, tìm sự chú ý"
+      },
+      "S": {
+        "name": "Steadiness",
+        "nameVi": "Ổn Định",
+        "emoji": "🌊",
+        "traits": ["Kiên nhẫn", "Trung thành", "Đáng tin cậy", "Hỗ trợ"],
+        "strengths": ["Làm việc bền bỉ", "Giữ hòa khí nhóm", "Lắng nghe tuyệt vời", "Đáng tin cậy 100%"],
+        "weaknesses": ["Ngại thay đổi", "Khó nói 'không'", "Chậm quyết định"],
+        "idealRoles": ["Hành chính", "HR", "Kế toán", "Support", "Quản lý dự án dài hạn", "Thư ký"],
+        "communicationTips": "Nói nhẹ nhàng, cho thời gian suy nghĩ, đảm bảo ổn định",
+        "stressResponse": "Rút lui, im lặng, chịu đựng âm thầm"
+      },
+      "C": {
+        "name": "Compliance",
+        "nameVi": "Tuân Thủ",
+        "emoji": "💎",
+        "traits": ["Tỉ mỉ", "Logic", "Có hệ thống", "Cầu toàn"],
+        "strengths": ["Phân tích sâu", "Không bỏ sót chi tiết", "Quy trình hóa tốt", "Chất lượng cao"],
+        "weaknesses": ["Hay lo lắng", "Analysis paralysis", "Khó linh hoạt"],
+        "idealRoles": ["Kế toán trưởng", "QA/QC", "Kiểm toán", "IT", "Nghiên cứu", "Analyst"],
+        "communicationTips": "Cung cấp dữ liệu, logic, cho thời gian xem xét",
+        "stressResponse": "Trở nên cầu toàn quá mức, thu mình"
+      }
+    },
+    "combinedProfiles": {
+      "DI": {"name": "Người Dẫn Dắt", "description": "Vừa quyết đoán vừa lôi cuốn. Lãnh đạo charismatic."},
+      "DS": {"name": "Người Kiến Tạo", "description": "Quyết đoán nhưng kiên nhẫn. Xây dựng bền vững."},
+      "DC": {"name": "Người Chiến Lược", "description": "Quyết đoán và chính xác. Hoạch định tuyệt vời."},
+      "ID": {"name": "Người Tiên Phong", "description": "Sáng tạo và dám làm. Khởi nghiệp lý tưởng."},
+      "IS": {"name": "Người Kết Nối", "description": "Ấm áp và kiên nhẫn. HR/counselor bẩm sinh."},
+      "IC": {"name": "Người Sáng Tạo", "description": "Sáng tạo và tỉ mỉ. Designer/marketer giỏi."},
+      "SD": {"name": "Người Thực Thi", "description": "Bền bỉ và quyết đoán. Hoàn thành mọi task."},
+      "SI": {"name": "Người Hòa Giải", "description": "Kiên nhẫn và hòa đồng. Mediator tự nhiên."},
+      "SC": {"name": "Người Chuyên Nghiệp", "description": "Đáng tin và chính xác. Hành chính mẫu mực."},
+      "CD": {"name": "Người Hoàn Hảo", "description": "Chính xác và quyết đoán. Kiểm toán/QC xuất sắc."},
+      "CI": {"name": "Người Truyền Thông", "description": "Phân tích tốt và giao tiếp giỏi. Tư vấn lý tưởng."},
+      "CS": {"name": "Người Cẩn Trọng", "description": "Tỉ mỉ và ổn định. Kế toán/compliance perfect."}
+    },
+    "roleFitMapping": {
+      "hanh_chinh": {"ideal": ["S", "SC", "CS"], "good": ["C", "SI"], "caution": ["D", "DI"]},
+      "ke_toan": {"ideal": ["C", "CS", "SC"], "good": ["S", "CD"], "caution": ["I", "DI"]},
+      "sales": {"ideal": ["I", "ID", "DI"], "good": ["D", "IS"], "caution": ["C", "CS"]},
+      "marketing": {"ideal": ["I", "IC", "ID"], "good": ["D", "DI"], "caution": ["S", "SC"]},
+      "it": {"ideal": ["C", "CD", "DC"], "good": ["D", "CS"], "caution": ["I", "IS"]},
+      "hr": {"ideal": ["S", "SI", "IS"], "good": ["I", "SC"], "caution": ["D", "DC"]},
+      "giam_doc": {"ideal": ["D", "DI", "DC"], "good": ["I", "DS"], "caution": ["S", "SC"]},
+      "quan_ly": {"ideal": ["D", "DS", "DI"], "good": ["S", "SD"], "caution": ["C", "CI"]}
+    }
+  }
+}
