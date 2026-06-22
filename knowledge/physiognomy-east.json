@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "name": "Nhân Tướng Đông Phương",
+    "version": "1.0",
+    "source": "Ma Y Thần Tướng, Liễu Trang Tướng Pháp, Tướng Lý Hành Chân",
+    "description": "Hệ thống nhân tướng học Trung Hoa cổ đại ứng dụng vào đánh giá nhân sự"
+  },
+  "ngu_quan": {
+    "name": "Ngũ Quan (五官)",
+    "description": "5 giác quan thể hiện 5 phẩm chất",
+    "features": {
+      "nhi": {
+        "name": "Nhĩ (耳) — Thính Quan",
+        "organ": "Tai",
+        "governs": "Trí tuệ, học hỏi, tuổi thơ (1-14 tuổi)",
+        "ideal": "Tai cao quá lông mày, dái tai dày, sắc tươi, dính sát đầu",
+        "readings": {
+          "high_above_eyebrow": "Thông minh, học giỏi, tiếp thu nhanh",
+          "thick_earlobes": "Phúc đức, giàu có, hưởng thụ",
+          "large_ears": "Tuổi thọ cao, sức khỏe tốt, ký ức tốt",
+          "small_close_ears": "Tập trung, cẩn thận, nhưng hẹp hòi",
+          "protruding_ears": "Sáng tạo, độc lập, nhưng bướng bỉnh",
+          "thin_ears": "Sức khỏe yếu, nhạy cảm, nghệ sĩ"
+        },
+        "hiring_signal": {
+          "positive": "Tai cân đối, dái tai dày → ổn định, đáng tin",
+          "neutral": "Tai trung bình → bình thường",
+          "caution": "Tai quá nhỏ hoặc mỏng → có thể thiếu sức bền"
+        }
+      },
+      "mi": {
+        "name": "Mi (眉) — Bảo Thọ Quan",
+        "organ": "Lông mày",
+        "governs": "Sức khỏe, tuổi thọ, tình anh em (31-34 tuổi)",
+        "ideal": "Dài qua mắt, mượt, sắc nét, cong nhẹ",
+        "readings": {
+          "thick_dark": "Quyết đoán, mạnh mẽ, lãnh đạo",
+          "thin_light": "Nhẹ nhàng, tinh tế, nghệ thuật",
+          "curved_smooth": "Khéo léo, ngoại giao, hòa nhã",
+          "straight_strong": "Thẳng thắn, cứng rắn, nguyên tắc",
+          "unibrow": "Bướng bỉnh, kiên trì, khó thay đổi",
+          "far_apart": "Bao dung, rộng lượng, ít chi tiết",
+          "close_together": "Chi tiết, hay lo, tập trung cao"
+        },
+        "hiring_signal": {
+          "positive": "Lông mày rõ ràng, cân đối → có chủ kiến, đáng tin",
+          "neutral": "Lông mày bình thường → trung tính",
+          "caution": "Lông mày rậm rối → khó kiểm soát cảm xúc"
+        }
+      },
+      "muc": {
+        "name": "Mục (目) — Giám Sát Quan",
+        "organ": "Mắt",
+        "governs": "Tinh thần, quyết đoán, trung niên (35-40 tuổi)",
+        "ideal": "Sáng, có thần, đen trắng phân minh, nhìn thẳng",
+        "readings": {
+          "bright_clear": "Thông minh, quyết đoán, sáng suốt",
+          "large_expressive": "Cảm xúc phong phú, sáng tạo, giao tiếp tốt",
+          "small_deep": "Tập trung, phân tích, cẩn trọng",
+          "droopy": "Trầm tư, nghệ sĩ, lãng mạn",
+          "sharp_piercing": "Quyền lực, thống trị, lãnh đạo",
+          "wandering": "Thiếu tập trung, không đáng tin, bất ổn",
+          "steady_calm": "Ổn định, đáng tin, kiên nhẫn"
+        },
+        "hiring_signal": {
+          "positive": "Mắt sáng, nhìn thẳng → tự tin, trung thực",
+          "neutral": "Mắt bình thường → trung tính",
+          "caution": "Mắt lờ đờ hoặc không dám nhìn → thiếu tự tin hoặc không trung thực"
+        }
+      },
+      "ty": {
+        "name": "Tỵ (鼻) — Thẩm Biện Quan",
+        "organ": "Mũi",
+        "governs": "Tài lộc, sự nghiệp, trung niên (41-50 tuổi)",
+        "ideal": "Sống cao thẳng, đầu tròn, cánh rộng, không lộ lỗ mũi",
+        "readings": {
+          "high_straight": "Sự nghiệp thành công, tự trọng cao, lãnh đạo",
+          "round_fleshy": "Giàu có, hào phóng, thực tế",
+          "thin_pointed": "Chi tiết, cẩn thận, tiết kiệm",
+          "wide_nostrils": "Hào phóng, phóng khoáng, tiêu xài",
+          "narrow_nostrils": "Tiết kiệm, cẩn thận, đôi khi keo kiệt",
+          "hooked": "Quyền lực, chiến lược, đôi khi quá tham vọng"
+        },
+        "hiring_signal": {
+          "positive": "Mũi cân đối, sống thẳng → ổn định tài chính, đáng tin",
+          "neutral": "Mũi bình thường → trung tính",
+          "caution": "Mũi quá nhọn hoặc hếch → tính toán quá hoặc thiếu ổn định"
+        }
+      },
+      "khau": {
+        "name": "Khẩu (口) — Xuất Nạp Quan",
+        "organ": "Miệng",
+        "governs": "Giao tiếp, ăn uống, tuổi già (51-60+)",
+        "ideal": "Miệng rộng, môi dày đều, răng đều, khép kín",
+        "readings": {
+          "wide_full_lips": "Hào phóng, giao tiếp tốt, thuyết phục",
+          "thin_lips": "Kỷ luật, logic, ít cảm xúc",
+          "upturned_corners": "Lạc quan, vui vẻ, thu hút",
+          "downturned_corners": "Nghiêm túc, cẩn trọng, bi quan nhẹ",
+          "small_mouth": "Cẩn thận, kín đáo, chi tiết",
+          "large_mouth": "Hào phóng, giao tiếp, lãnh đạo"
+        },
+        "hiring_signal": {
+          "positive": "Miệng cân đối, cười tự nhiên → giao tiếp tốt, thân thiện",
+          "neutral": "Bình thường → trung tính",
+          "caution": "Miệng méo hoặc mím chặt → giao tiếp khó hoặc bất mãn"
+        }
+      }
+    }
+  },
+  "tam_dinh": {
+    "name": "Tam Đình (三停)",
+    "description": "3 phần khuôn mặt = 3 giai đoạn cuộc đời",
+    "sections": {
+      "thuong_dinh": {
+        "name": "Thượng Đình (上停)",
+        "range": "Chân tóc → Đầu lông mày",
+        "age_range": "15-30 tuổi",
+        "governs": "Trí tuệ, học vấn, gia đình gốc",
+        "ideal": "Rộng, sáng, không vết sẹo, không nhăn",
+        "readings": {
+          "wide_bright": "Thông minh, gia đình tốt, sự nghiệp sớm thuận",
+          "narrow": "Tuổi trẻ vất vả, tự lập sớm",
+          "scarred_marked": "Tuổi trẻ gặp trở ngại"
+        }
+      },
+      "trung_dinh": {
+        "name": "Trung Đình (中停)",
+        "range": "Đầu lông mày → Đầu mũi",
+        "age_range": "31-50 tuổi",
+        "governs": "Sự nghiệp, tài lộc, thành tựu",
+        "ideal": "Cân đối, mũi thẳng, gò má đầy",
+        "readings": {
+          "prominent_balanced": "Sự nghiệp thịnh vượng, thành đạt",
+          "flat_recessed": "Sự nghiệp gặp khó khăn, cần nỗ lực nhiều",
+          "asymmetric": "Sự nghiệp bất ổn, thay đổi nhiều"
+        }
+      },
+      "ha_dinh": {
+        "name": "Hạ Đình (下停)",
+        "range": "Đầu mũi → Cằm",
+        "age_range": "51-75+ tuổi",
+        "governs": "Tuổi già, phúc đức, con cháu",
+        "ideal": "Cằm tròn đầy, phần dưới cân đối",
+        "readings": {
+          "full_round": "Tuổi già an nhàn, con cháu hiếu thảo",
+          "pointed_thin": "Tuổi già vất vả, cô đơn",
+          "strong_square": "Kiên cường, bền bỉ, đáng tin"
+        }
+      }
+    },
+    "balance_rule": "Tam Đình cân đối (1:1:1) → cuộc đời hài hòa. Phần nào ngắn → giai đoạn đó gặp khó.",
+    "hiring_application": "Trung Đình tốt = sự nghiệp ổn định → ưu tiên cho vị trí trung/cao cấp"
+  },
+  "tu_khi_chat": {
+    "name": "Tứ Khí Chất (四氣質)",
+    "description": "4 nguyên tố thiên nhiên phản ánh tính cách",
+    "elements": {
+      "phong": {
+        "name": "Phong (風) — Gió",
+        "traits": "Linh hoạt, biến hóa, giao tiếp, sáng tạo",
+        "facial_signs": "Khuôn mặt linh động, biểu cảm thay đổi nhanh, mắt lanh lợi",
+        "strengths": ["Thích ứng nhanh", "Sáng tạo", "Giao tiếp tốt"],
+        "weaknesses": ["Thiếu kiên nhẫn", "Bất ổn", "Hay thay đổi"],
+        "ideal_roles": ["Marketing", "Sales", "PR", "Sáng tạo", "Startup"],
+        "disc_correlation": "I (Influence)",
+        "big_five_correlation": "High O, High E"
+      },
+      "hoa": {
+        "name": "Hỏa (火) — Lửa",
+        "traits": "Nhiệt huyết, quyết đoán, lãnh đạo, nóng vội",
+        "facial_signs": "Khuôn mặt góc cạnh, da đỏ hồng, mắt sáng mạnh, biểu cảm mạnh",
+        "strengths": ["Lãnh đạo", "Quyết đoán", "Năng lượng cao"],
+        "weaknesses": ["Nóng nảy", "Thiếu kiên nhẫn", "Áp đặt"],
+        "ideal_roles": ["CEO", "Quản lý", "Sales Manager", "Quân đội"],
+        "disc_correlation": "D (Dominance)",
+        "big_five_correlation": "High E, Low A, Low N"
+      },
+      "thuy": {
+        "name": "Thủy (水) — Nước",
+        "traits": "Trầm tĩnh, uyển chuyển, thích ứng, bí ẩn",
+        "facial_signs": "Khuôn mặt tròn mềm, da mịn, mắt sâu, biểu cảm bình thản",
+        "strengths": ["Phân tích", "Kiên nhẫn", "Thích ứng"],
+        "weaknesses": ["Thiếu quyết đoán", "Bí ẩn", "Trì trệ"],
+        "ideal_roles": ["Nghiên cứu", "IT", "Kế toán", "Phân tích", "Chiến lược"],
+        "disc_correlation": "C (Compliance)",
+        "big_five_correlation": "High C, Low E"
+      },
+      "tho": {
+        "name": "Thổ (土) — Đất",
+        "traits": "Vững chắc, đáng tin, kiên nhẫn, thực tế",
+        "facial_signs": "Khuôn mặt vuông/rộng, da ngăm, mặt dày, biểu cảm ổn định",
+        "strengths": ["Đáng tin cậy", "Kiên trì", "Ổn định"],
+        "weaknesses": ["Chậm thay đổi", "Bảo thủ", "Cứng nhắc"],
+        "ideal_roles": ["Hành chính", "Kế toán", "HR", "QA", "Quản lý"],
+        "disc_correlation": "S (Steadiness)",
+        "big_five_correlation": "High C, High A, Low O"
+      }
+    }
+  },
+  "ngu_nhac": {
+    "name": "Ngũ Nhạc (五嶽)",
+    "description": "5 núi trên khuôn mặt — cân bằng = quý tướng",
+    "mountains": {
+      "trung_nhac": { "position": "Mũi (trung tâm)", "governs": "Sự nghiệp, tài lộc" },
+      "dong_nhac": { "position": "Gò má trái", "governs": "Quyền lực, uy tín" },
+      "tay_nhac": { "position": "Gò má phải", "governs": "Bạn bè, xã hội" },
+      "nam_nhac": { "position": "Cằm", "governs": "Hậu vận, gia sản" },
+      "bac_nhac": { "position": "Trán", "governs": "Trí tuệ, tiền vận" }
+    },
+    "balance_rule": "5 núi đầy đặn, cân đối → quý tướng. Núi nào thấp → mặt đó yếu."
+  },
+  "thap_nhi_cung": {
+    "name": "Thập Nhị Cung (十二宮)",
+    "description": "12 cung trên khuôn mặt = 12 khía cạnh cuộc sống",
+    "palaces": {
+      "menh_cung": { "position": "Giữa hai lông mày", "governs": "Vận mệnh tổng thể", "ideal": "Rộng, sáng, không vết" },
+      "tai_bach_cung": { "position": "Trán (Thượng Đình)", "governs": "Tài chính, kiếm tiền", "ideal": "Rộng, sáng bóng" },
+      "huyen_de_cung": { "position": "Hai bên trán", "governs": "Anh em, đồng nghiệp", "ideal": "Đầy đặn, cân đối" },
+      "thien_trach_cung": { "position": "Lông mày", "governs": "Nhà cửa, bất động sản", "ideal": "Lông mày đẹp, mượt" },
+      "nam_nu_cung": { "position": "Ngay dưới mắt (gò ngọa tằm)", "governs": "Con cái", "ideal": "Đầy đặn, không rỗ" },
+      "no_boc_cung": { "position": "Hai bên cằm", "governs": "Nhân viên, cấp dưới", "ideal": "Tròn, đầy" },
+      "the_cung": { "position": "Đuôi mắt", "governs": "Hôn nhân, bạn đời", "ideal": "Không vết chân chim, sáng" },
+      "ji_ach_cung": { "position": "Sống mũi", "governs": "Bệnh tật, sức khỏe", "ideal": "Thẳng, sáng, không sẹo" },
+      "thien_di_cung": { "position": "Hai bên trán (thái dương)", "governs": "Di chuyển, du lịch", "ideal": "Đầy đặn" },
+      "quan_loc_cung": { "position": "Giữa trán", "governs": "Sự nghiệp, công danh", "ideal": "Rộng, sáng" },
+      "phuc_duc_cung": { "position": "Lông mày ngoài", "governs": "Phúc đức, may mắn", "ideal": "Lông mày dài, mượt" },
+      "phu_mau_cung": { "position": "Hai bên trán (Nhật Nguyệt Giác)", "governs": "Cha mẹ, gia đình gốc", "ideal": "Đầy, cao, sáng" }
+    },
+    "hiring_application": {
+      "menh_cung": "Mệnh cung tốt → nhân viên có vận khí, mang lại may mắn cho công ty",
+      "tai_bach_cung": "Tài Bạch tốt → phù hợp vị trí liên quan tài chính",
+      "no_boc_cung": "Nô Bộc tốt → quản lý nhân viên tốt, phù hợp làm leader",
+      "quan_loc_cung": "Quan Lộc tốt → sự nghiệp thăng tiến, phù hợp vị trí cao"
+    }
+  },
+  "hiring_application_guide": {
+    "disclaimer": "⚠️ Nhân tướng là tham khảo bổ sung. KHÔNG sử dụng làm tiêu chí chính trong tuyển dụng. Luôn kết hợp với phỏng vấn, bài test, kinh nghiệm.",
+    "weighting": "Nhân tướng nên chiếm tối đa 10-15% trọng số trong đánh giá tổng hợp",
+    "best_practices": [
+      "Chỉ dùng khi đã có kết quả phỏng vấn + test rồi",
+      "Dùng để cross-check, không phải filter",
+      "Chú ý bias — ngoại hình KHÔNG bằng năng lực",
+      "Quan sát biểu cảm tự nhiên (khi không biết bị quan sát) mới chính xác",
+      "Tổng thể quan trọng hơn chi tiết — nhìn tổng thể harmony"
+    ]
+  }
+}
