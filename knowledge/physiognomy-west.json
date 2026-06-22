@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "name": "Western Physiognomy & Facial Psychology",
+    "version": "1.0",
+    "source": "Johann Kaspar Lavater, Cesare Lombroso (historical), Paul Ekman (modern micro-expressions), Eric Standop (face reading), Alexander Todorov (modern research)",
+    "description": "Western face reading combining classical physiognomy with modern facial psychology and micro-expression science"
+  },
+  "four_temperaments": {
+    "name": "Four Temperaments (Tứ Khí Chất Tây Phương)",
+    "source": "Hippocrates → Galen → Modern psychology",
+    "types": {
+      "sanguine": {
+        "name": "Sanguine (Lạc Quan)",
+        "element": "Air (Khí)",
+        "facial_indicators": [
+          "Round or oval face shape",
+          "Full, rosy cheeks",
+          "Wide, expressive eyes",
+          "Full lips, often smiling",
+          "Animated facial expressions",
+          "Warm skin tone"
+        ],
+        "personality": ["Optimistic", "Social", "Enthusiastic", "Talkative", "Spontaneous"],
+        "strengths": ["Excellent communicator", "Inspiring", "Team builder", "Creative"],
+        "weaknesses": ["Disorganized", "Late", "Forgetful", "Superficial"],
+        "ideal_roles": ["Sales", "Marketing", "PR", "Event planning", "Teaching", "Customer service"],
+        "interview_behavior": "Talkative, tells stories, animated gestures, may go off-topic, friendly",
+        "disc_map": "I (Influence)",
+        "mbti_map": ["ESFP", "ENFP", "ESTP"],
+        "big_five_map": { "E": "High", "O": "High", "A": "High", "C": "Low-Mod", "N": "Low" }
+      },
+      "choleric": {
+        "name": "Choleric (Nóng Nảy)",
+        "element": "Fire (Hỏa)",
+        "facial_indicators": [
+          "Angular, strong jawline",
+          "Square or rectangular face",
+          "Sharp, focused eyes",
+          "Thin or firm lips",
+          "Prominent brow ridge",
+          "Strong nose bridge"
+        ],
+        "personality": ["Decisive", "Ambitious", "Leader", "Assertive", "Goal-oriented"],
+        "strengths": ["Natural leader", "Decisive", "Efficient", "Strategic"],
+        "weaknesses": ["Domineering", "Impatient", "Insensitive", "Workaholic"],
+        "ideal_roles": ["CEO", "Manager", "Military", "Entrepreneur", "Project lead"],
+        "interview_behavior": "Direct, confident, may challenge questions, time-conscious, results-focused",
+        "disc_map": "D (Dominance)",
+        "mbti_map": ["ENTJ", "ESTJ", "INTJ"],
+        "big_five_map": { "E": "High", "O": "Moderate", "A": "Low", "C": "High", "N": "Low" }
+      },
+      "melancholic": {
+        "name": "Melancholic (Trầm Tư)",
+        "element": "Earth (Thổ)",
+        "facial_indicators": [
+          "Oval or long face shape",
+          "Fine, delicate features",
+          "Deep-set or thoughtful eyes",
+          "Thin eyebrows, refined",
+          "Narrow chin or pointed",
+          "Pale or matte skin"
+        ],
+        "personality": ["Analytical", "Detail-oriented", "Perfectionist", "Thoughtful", "Creative"],
+        "strengths": ["Meticulous", "Quality-focused", "Loyal", "Deep thinker"],
+        "weaknesses": ["Overthinking", "Critical", "Mood swings", "Hard to please"],
+        "ideal_roles": ["Analyst", "Accountant", "Engineer", "QA", "Writer", "Scientist"],
+        "interview_behavior": "Prepared, brings documents, asks detailed questions, reserved, thoughtful answers",
+        "disc_map": "C (Compliance)",
+        "mbti_map": ["INTJ", "INFJ", "ISTJ", "INFP"],
+        "big_five_map": { "E": "Low", "O": "High", "A": "Moderate", "C": "High", "N": "High" }
+      },
+      "phlegmatic": {
+        "name": "Phlegmatic (Điềm Tĩnh)",
+        "element": "Water (Thủy)",
+        "facial_indicators": [
+          "Round, soft face shape",
+          "Gentle, calm eyes",
+          "Relaxed facial muscles",
+          "Full face, soft jaw",
+          "Neutral or slight smile",
+          "Even, balanced features"
+        ],
+        "personality": ["Calm", "Reliable", "Patient", "Diplomatic", "Loyal"],
+        "strengths": ["Steady", "Peacemaker", "Good listener", "Consistent"],
+        "weaknesses": ["Passive", "Slow to act", "Resistant to change", "Indecisive"],
+        "ideal_roles": ["Admin", "HR", "Support", "Counselor", "Mediator", "Nurse"],
+        "interview_behavior": "Calm, polite, consistent answers, doesn't rush, may seem understated",
+        "disc_map": "S (Steadiness)",
+        "mbti_map": ["ISFJ", "ISFP", "INFP", "ISTJ"],
+        "big_five_map": { "E": "Low", "O": "Low", "A": "High", "C": "Moderate", "N": "Low" }
+      }
+    }
+  },
+  "face_shapes": {
+    "name": "Face Shape Analysis",
+    "source": "Jang & Lee (2019), Eric Standop, Jean Haner",
+    "shapes": {
+      "oval": {
+        "description": "Elliptical, forehead wider than jaw, cheekbones widest",
+        "personality": ["Balanced", "Diplomatic", "Adaptable", "Social"],
+        "strengths": "Versatile, fit many roles",
+        "ideal_roles": ["Management", "Consulting", "HR", "PR"]
+      },
+      "round": {
+        "description": "Width and length similar, full cheeks, soft jaw",
+        "personality": ["Friendly", "Caring", "People-oriented", "Generous"],
+        "strengths": "Great team player, approachable",
+        "ideal_roles": ["Customer service", "Teaching", "HR", "Hospitality"]
+      },
+      "square": {
+        "description": "Strong jaw, forehead and jaw similar width, angular",
+        "personality": ["Determined", "Stamina", "Leadership", "Resilient"],
+        "strengths": "Born leader, endurance",
+        "ideal_roles": ["Executive", "Military", "Construction", "Sports"]
+      },
+      "heart": {
+        "description": "Wide forehead, narrow chin, high cheekbones",
+        "personality": ["Creative", "Intuitive", "Empathetic", "Idealistic"],
+        "strengths": "Creative, emotionally intelligent",
+        "ideal_roles": ["Design", "Writing", "Counseling", "Art"]
+      },
+      "long_oblong": {
+        "description": "Longer than wide, high forehead, long chin",
+        "personality": ["Methodical", "Logical", "Detail-oriented", "Cautious"],
+        "strengths": "Systematic, good at planning",
+        "ideal_roles": ["Engineering", "Accounting", "Law", "Science"]
+      },
+      "diamond": {
+        "description": "Narrow forehead and jaw, wide cheekbones",
+        "personality": ["Perfectionist", "Communicative", "Sharp", "Detail-focused"],
+        "strengths": "Quality control, communication",
+        "ideal_roles": ["Quality assurance", "Editing", "Analysis", "Research"]
+      }
+    }
+  },
+  "micro_expressions": {
+    "name": "Micro-Expression Analysis (Paul Ekman)",
+    "source": "Paul Ekman FACS (Facial Action Coding System)",
+    "description": "7 universal emotions visible in 1/25 second micro-expressions",
+    "emotions": {
+      "happiness": {
+        "indicators": "Crow's feet, raised cheeks, Duchenne smile (orbicularis oculi)",
+        "hiring_signal": "Genuine smile = comfortable, honest. Fake smile (mouth only) = nervous or hiding"
+      },
+      "sadness": {
+        "indicators": "Inner brow raise, lip corners down, lower lip pushes up",
+        "hiring_signal": "If frequent → may have personal issues affecting work"
+      },
+      "anger": {
+        "indicators": "Brows down and together, lips pressed, jaw tight, nostrils flare",
+        "hiring_signal": "Micro-anger during discussion → disagreement being suppressed"
+      },
+      "fear": {
+        "indicators": "Eyebrows raised and together, eyes wide, mouth slightly open",
+        "hiring_signal": "Fear flashes → topic they're uncomfortable with (may indicate deception)"
+      },
+      "surprise": {
+        "indicators": "Eyebrows raised (curved), eyes wide, jaw drops",
+        "hiring_signal": "Genuine surprise = not prepared for that question"
+      },
+      "disgust": {
+        "indicators": "Nose wrinkle, upper lip raised, lower lip pushed forward",
+        "hiring_signal": "Disgust → strongly disagree or find topic unpleasant"
+      },
+      "contempt": {
+        "indicators": "One-sided mouth raise (smirk), one eyebrow slightly raised",
+        "hiring_signal": "⚠️ Contempt = feeling superior. Red flag in team-oriented roles"
+      }
+    },
+    "interview_tips": [
+      "Watch for incongruence: says 'I loved my team' but shows contempt/disgust",
+      "Genuine emotions are symmetrical; fake ones are asymmetric",
+      "Micro-expressions last <0.5 second — need practice to spot",
+      "Baseline first: observe natural expressions before asking tough questions",
+      "Context matters: fear of questions ≠ lying (could be anxiety)"
+    ]
+  },
+  "eye_analysis": {
+    "name": "Eye Contact & Gaze Analysis",
+    "patterns": {
+      "steady_direct": {
+        "description": "Maintains eye contact 60-70% of time",
+        "signal": "Confident, honest, engaged",
+        "roles": ["Leadership", "Sales", "Teaching"]
+      },
+      "avoidant": {
+        "description": "Avoids eye contact, looks down or away",
+        "signal": "Shy, anxious, possibly hiding something",
+        "note": "Cultural factor: some Asian cultures avoid direct eye contact as respect"
+      },
+      "intense_staring": {
+        "description": "Unblinking, aggressive eye contact",
+        "signal": "Dominant, possibly intimidating, may be compensating",
+        "note": "Can indicate practiced confidence (not natural)"
+      },
+      "darting": {
+        "description": "Eyes move quickly between points",
+        "signal": "Anxious, processing quickly, or checking for reactions",
+        "note": "Normal during thinking; concerning if constant"
+      },
+      "upward_right": {
+        "description": "Looks up and to their right",
+        "signal": "Constructing/imagining (NLP theory — not scientifically validated)",
+        "note": "⚠️ Eye-direction lie detection is NOT reliable. Do not use as sole indicator."
+      }
+    }
+  },
+  "ai_prompt_templates": {
+    "description": "Templates for AI vision models to analyze faces",
+    "combined_analysis": "Analyze this face photo. Describe: 1) Face shape (oval/round/square/heart/long/diamond), 2) Temperament (sanguine/choleric/melancholic/phlegmatic), 3) Expression reading (emotion, confidence level, energy), 4) Eye contact quality, 5) Overall first impression (1-10). Format as JSON.",
+    "hiring_quick": "As a hiring consultant, give your first impression of this candidate photo: 1) Energy level (high/moderate/low), 2) Confidence signal (strong/moderate/weak), 3) Approachability (1-10), 4) Professional appearance (1-10), 5) Best-fit role type. Be concise.",
+    "emotion_check": "Describe the emotional state visible in this face: primary emotion, secondary emotion, congruence (does the expression match what they're saying?), stress indicators, comfort level."
+  },
+  "hiring_application_guide": {
+    "disclaimer": "⚠️ Western physiognomy has limited scientific validation. Use as SUPPLEMENTARY data only, never as primary hiring criteria.",
+    "evidence_based": [
+      "Micro-expressions (Ekman) — scientifically validated for emotion detection",
+      "First impressions — research shows they form in 100ms but are often biased",
+      "Face shape → personality has weak scientific support (treat as hypothesis only)"
+    ],
+    "ethical_guidelines": [
+      "NEVER reject based on appearance alone",
+      "Be aware of attractiveness bias (halo effect)",
+      "Cultural differences affect facial expression interpretation",
+      "Physiognomy is historically associated with racism — use responsibly",
+      "Always combine with objective assessments (tests, interviews, references)"
+    ],
+    "weighting": "Western physiognomy should be max 5-10% of total assessment weight"
+  }
+}
