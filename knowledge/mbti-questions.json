@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "name": "MBTI Personality Assessment",
+    "version": "1.0",
+    "source": "Myers-Briggs Type Indicator + MBTI Certified Training",
+    "totalQuestions": 70,
+    "timeLimit": 25,
+    "description": "Xác định 16 loại tính cách MBTI qua 4 chiều: E-I, S-N, T-F, J-P",
+    "note": "Không phải assessment tính cách đơn thuần mà là xác định cách bạn xử lý thông tin + quyết định"
+  },
+  "instructions": {
+    "vi": "Với mỗi cặp câu, chọn CÂU NÀO MÔ TẢ BẠN HƠN. Không có đáp án đúng/sai.",
+    "en": "For each pair, choose which statement describes you better. No right/wrong answers."
+  },
+  "dimensions": {
+    "EI": {
+      "name": "Extroversion vs Introversion",
+      "description": "Bạn lấy năng lượng từ đâu? Người ngoài (E) hay nội tâm (I)?",
+      "E": "Lấy năng lượng từ bên ngoài, giao tiếp, hoạt động, mọi người",
+      "I": "Lấy năng lượng từ nội tâm, suy tư, độc lập, yên tĩnh"
+    },
+    "SN": {
+      "name": "Sensing vs Intuition",
+      "description": "Bạn thu thập thông tin như thế nào? Thông qua giác quan (S) hay linh cảm (N)?",
+      "S": "Chú ý chi tiết, sự thực, kinh nghiệm, có cơ sở",
+      "N": "Chú ý pattern, ý nghĩa, khả năng, tương lai"
+    },
+    "TF": {
+      "name": "Thinking vs Feeling",
+      "description": "Bạn quyết định dựa vào gì? Logic (T) hay giá trị con người (F)?",
+      "T": "Logic, khách quan, nguyên tắc, hiệu quả",
+      "F": "Giá trị, hòa hợp, tác động con người, đồng cảm"
+    },
+    "JP": {
+      "name": "Judging vs Perceiving",
+      "description": "Bạn sắp xếp cuộc sống như thế nào? Có kế hoạch (J) hay linh hoạt (P)?",
+      "J": "Có tổ chức, lập kế hoạch, structured, deadline",
+      "P": "Linh hoạt, thích ứng, tự phát, open-ended"
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "pair": 1,
+      "dimension": "EI",
+      "option_A": {"text": "Tôi thích gặp gỡ người mới tại party", "type": "E"},
+      "option_B": {"text": "Tôi thích 1-1 với bạn thân tại nhà", "type": "I"}
+    },
+    {
+      "id": 2,
+      "pair": 1,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi chú ý chi tiết, sự thực hiện tại", "type": "S"},
+      "option_B": {"text": "Tôi chú ý big picture, ý nghĩa", "type": "N"}
+    },
+    {
+      "id": 3,
+      "pair": 1,
+      "dimension": "TF",
+      "option_A": {"text": "Tôi quyết định dựa trên logic, khách quan", "type": "T"},
+      "option_B": {"text": "Tôi quyết định dựa trên giá trị, tác động người", "type": "F"}
+    },
+    {
+      "id": 4,
+      "pair": 1,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi thích lập kế hoạch trước, deadline rõ", "type": "J"},
+      "option_B": {"text": "Tôi thích linh hoạt, làm theo cảm hứng", "type": "P"}
+    },
+    {
+      "id": 5,
+      "pair": 2,
+      "dimension": "EI",
+      "option_A": {"text": "Dưới áp lực, tôi tìm mọi người để talk it out", "type": "E"},
+      "option_B": {"text": "Dưới áp lực, tôi rút lui để suy tư một mình", "type": "I"}
+    },
+    {
+      "id": 6,
+      "pair": 2,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi tin vào trải nghiệm thực tiễn hơn lý thuyết", "type": "S"},
+      "option_B": {"text": "Tôi tin vào lý thuyết, pattern, model hơn", "type": "N"}
+    },
+    {
+      "id": 7,
+      "pair": 2,
+      "dimension": "TF",
+      "option_A": {"text": "Tôi có thể nói 'không' dễ dàng nếu logic không hợp", "type": "T"},
+      "option_B": {"text": "Tôi khó nói 'không' vì sợ làm tổn thương", "type": "F"}
+    },
+    {
+      "id": 8,
+      "pair": 2,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi hoàn thành công việc trước deadline", "type": "J"},
+      "option_B": {"text": "Tôi thường hoàn thành đúng deadline hoặc hơi muộn", "type": "P"}
+    },
+    {
+      "id": 9,
+      "pair": 3,
+      "dimension": "EI",
+      "option_A": {"text": "Cuối tuần tôi muốn socializing, event", "type": "E"},
+      "option_B": {"text": "Cuối tuần tôi muốn ở nhà, recharge", "type": "I"}
+    },
+    {
+      "id": 10,
+      "pair": 3,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi chú ý từng bước, quy trình", "type": "S"},
+      "option_B": {"text": "Tôi chú ý mục tiêu cuối cùng, kết quả", "type": "N"}
+    },
+    {
+      "id": 11,
+      "pair": 3,
+      "dimension": "TF",
+      "option_A": {"text": "Tôi dùng tiêu chí khách quan để đánh giá", "type": "T"},
+      "option_B": {"text": "Tôi cân nhắc tác động cảm xúc khi đánh giá", "type": "F"}
+    },
+    {
+      "id": 12,
+      "pair": 3,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi thích quy tắc, hệ thống, cấu trúc", "type": "J"},
+      "option_B": {"text": "Tôi thích freedom, flexibility, spontaneity", "type": "P"}
+    },
+    {
+      "id": 13,
+      "pair": 4,
+      "dimension": "EI",
+      "option_A": {"text": "Tôi hay nói chuyện, share thought 'out loud'", "type": "E"},
+      "option_B": {"text": "Tôi suy nghĩ trước, rồi mới nói (hoặc im lặng)", "type": "I"}
+    },
+    {
+      "id": 14,
+      "pair": 4,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi thích công việc cụ thể, applicative", "type": "S"},
+      "option_B": {"text": "Tôi thích công việc abstract, theoretical", "type": "N"}
+    },
+    {
+      "id": 15,
+      "pair": 4,
+      "dimension": "TF",
+      "option_A": {"text": "Tôi phân tích mình trước, cảm xúc sau", "type": "T"},
+      "option_B": {"text": "Tôi cảm xúc trước, phân tích sau", "type": "F"}
+    },
+    {
+      "id": 16,
+      "pair": 4,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi thích closure, quyết định, action", "type": "J"},
+      "option_B": {"text": "Tôi thích explore, questioning, open-mindedness", "type": "P"}
+    },
+    {
+      "id": 17,
+      "pair": 5,
+      "dimension": "EI",
+      "option_A": {"text": "Tôi là tâm điểm, thích được chú ý", "type": "E"},
+      "option_B": {"text": "Tôi ngồi yên, quan sát, ít nói", "type": "I"}
+    },
+    {
+      "id": 18,
+      "pair": 5,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi thích instruction cụ thể, step-by-step", "type": "S"},
+      "option_B": {"text": "Tôi muốn overview, context, big picture trước", "type": "N"}
+    },
+    {
+      "id": 19,
+      "pair": 5,
+      "dimension": "TF",
+      "option_A": {"text": "Tôi công bằng, lý lẽ, khách quan", "type": "T"},
+      "option_B": {"text": "Tôi chân thành, quan tâm, sâu sắc", "type": "F"}
+    },
+    {
+      "id": 20,
+      "pair": 5,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi muốn biết rõ ràng kỳ vọng, deadline", "type": "J"},
+      "option_B": {"text": "Tôi muốn flexibility, không quá nhiều deadline", "type": "P"}
+    },
+    {
+      "id": 21,
+      "pair": 6,
+      "dimension": "EI",
+      "option_A": {"text": "Tôi bất tàn khi ở nhà 1 mình quá lâu", "type": "E"},
+      "option_B": {"text": "Tôi bất tàn khi social quá nhiều, cần alone time", "type": "I"}
+    },
+    {
+      "id": 22,
+      "pair": 6,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi focus vào what is (hiện tại, cụ thể)", "type": "S"},
+      "option_B": {"text": "Tôi focus vào what could be (tương lai, khả năng)", "type": "N"}
+    },
+    {
+      "id": 23,
+      "pair": 6,
+      "dimension": "TF",
+      "option_A": {"text": "Lý do mở rộng hơn cảm xúc cho tôi", "type": "T"},
+      "option_B": {"text": "Cảm xúc định rõ hơn lý do cho tôi", "type": "F"}
+    },
+    {
+      "id": 24,
+      "pair": 6,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi hoàn thành công việc lần lượt, organized", "type": "J"},
+      "option_B": {"text": "Tôi dễ nhảy cóc giữa tasks, juggling", "type": "P"}
+    },
+    {
+      "id": 25,
+      "pair": 7,
+      "dimension": "EI",
+      "option_A": {"text": "Tôi thích làm việc trong team, around people", "type": "E"},
+      "option_B": {"text": "Tôi thích làm việc độc lập, có control", "type": "I"}
+    },
+    {
+      "id": 26,
+      "pair": 7,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi thích learning practical skills", "type": "S"},
+      "option_B": {"text": "Tôi thích learning concepts, theories", "type": "N"}
+    },
+    {
+      "id": 27,
+      "pair": 7,
+      "dimension": "TF",
+      "option_A": {"text": "Tôi tập trung vào task, objective, result", "type": "T"},
+      "option_B": {"text": "Tôi tập trung vào people, harmony, meaning", "type": "F"}
+    },
+    {
+      "id": 28,
+      "pair": 7,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi prefer schedule, structure, plan ahead", "type": "J"},
+      "option_B": {"text": "Tôi prefer spontaneous, go with flow, adapt", "type": "P"}
+    },
+    {
+      "id": 29,
+      "pair": 8,
+      "dimension": "EI",
+      "option_A": {"text": "Tôi thích meet new people, explore network", "type": "E"},
+      "option_B": {"text": "Tôi thích deepen friendships với few people", "type": "I"}
+    },
+    {
+      "id": 30,
+      "pair": 8,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi tin tuyệt đối thế nào các công cụ hoạt động", "type": "S"},
+      "option_B": {"text": "Tôi tin tưởng intuition, pattern recognition", "type": "N"}
+    },
+    {
+      "id": 31,
+      "pair": 8,
+      "dimension": "TF",
+      "option_A": {"text": "Tôi direct, straightforward, blunt nếu cần", "type": "T"},
+      "option_B": {"text": "Tôi tactful, diplomatic, sensitive với perasaan", "type": "F"}
+    },
+    {
+      "id": 32,
+      "pair": 8,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi check-off items, closure oriented", "type": "J"},
+      "option_B": {"text": "Tôi process oriented, enjoy journey", "type": "P"}
+    },
+    {
+      "id": 33,
+      "pair": 9,
+      "dimension": "EI",
+      "option_A": {"text": "Tôi energized bởi group discussion", "type": "E"},
+      "option_B": {"text": "Tôi drained bởi group discussion lâu", "type": "I"}
+    },
+    {
+      "id": 34,
+      "pair": 9,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi thích proven methods, established approach", "type": "S"},
+      "option_B": {"text": "Tôi thích innovative, unconventional approach", "type": "N"}
+    },
+    {
+      "id": 35,
+      "pair": 9,
+      "dimension": "TF",
+      "option_A": {"text": "Tôi critical feedback OK, improvement focused", "type": "T"},
+      "option_B": {"text": "Tôi criticism hurt, appreciation focused", "type": "F"}
+    },
+    {
+      "id": 36,
+      "pair": 9,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi prefer clear expectations, guidelines", "type": "J"},
+      "option_B": {"text": "Tôi prefer freedom to figure it out myself", "type": "P"}
+    },
+    {
+      "id": 37,
+      "pair": 10,
+      "dimension": "EI",
+      "option_A": {"text": "Tôi seek external stimulation, action, drama", "type": "E"},
+      "option_B": {"text": "Tôi seek internal reflection, peace, stability", "type": "I"}
+    },
+    {
+      "id": 38,
+      "pair": 10,
+      "dimension": "SN",
+      "option_A": {"text": "Tôi remember details, what was said, facts", "type": "S"},
+      "option_B": {"text": "Tôi remember impressions, gist, overall feeling", "type": "N"}
+    },
+    {
+      "id": 39,
+      "pair": 10,
+      "dimension": "TF",
+      "option_A": {"text": "Tôi principled, consistent, logical consequence", "type": "T"},
+      "option_B": {"text": "Tôi compassionate, flexible, context-dependent", "type": "F"}
+    },
+    {
+      "id": 40,
+      "pair": 10,
+      "dimension": "JP",
+      "option_A": {"text": "Tôi decide early, committed to plan", "type": "J"},
+      "option_B": {"text": "Tôi decide late, keep options open", "type": "P"}
+    }
+  ],
+  "scoring": {
+    "method": "Count A (E/S/T/J) vs B (I/N/F/P). Highest per dimension = type letter.",
+    "types": {
+      "ISTJ": {
+        "code": "ISTJ",
+        "name": "The Logistician",
+        "nameVi": "Người Kế Hoạch",
+        "emoji": "📋",
+        "traits": ["Kỷ luật", "Trách nhiệm", "Thực tế", "Có tổ chức"],
+        "careers": ["Kế toán", "Luật sư", "Công an", "Quân đội", "Quản lý"],
+        "strength": ["Đáng tin", "Hiệu quả", "Giải quyết vấn đề"],
+        "challenge": ["Cứng nhắc", "Khó thích ứng", "Chậm thay đổi"]
+      },
+      "ISFJ": {
+        "code": "ISFJ",
+        "name": "The Defender",
+        "nameVi": "Người Bảo Vệ",
+        "emoji": "🛡️",
+        "traits": ["Trung thành", "Quan tâm", "Chăm sóc", "Tổ chức"],
+        "careers": ["Hành chính", "HR", "Chăm sóc sức khỏe", "Thư ký", "Giáo viên"],
+        "strength": ["Đồng cảm", "Hỗ trợ", "Kiên trì"],
+        "challenge": ["Quá nhạy cảm", "Khó nói không", "Lo lắng"]
+      },
+      "INFJ": {
+        "code": "INFJ",
+        "name": "The Advocate",
+        "nameVi": "Người Biện Hộ",
+        "emoji": "🕊️",
+        "traits": ["Trực giác", "Lý tưởng", "Insight", "Kỷ luật"],
+        "careers": ["Tâm lý", "Tư vấn", "Giáo viên", "Nhà văn", "Hoạt động xã hội"],
+        "strength": ["Hiểu sâu con người", "Creative", "Committed"],
+        "challenge": ["Perfectionistic", "Sensitive", "Private"]
+      },
+      "INTJ": {
+        "code": "INTJ",
+        "name": "The Architect",
+        "nameVi": "Người Kiến Trúc",
+        "emoji": "🏛️",
+        "traits": ["Logic", "Độc lập", "Chiến lược", "Đam mê"],
+        "careers": ["Kỹ sư", "Nhà khoa học", "Chiến lược gia", "Lập trình viên", "Giáo sư"],
+        "strength": ["Phân tích sâu", "Tư duy chiến lược", "Độc lập"],
+        "challenge": ["Khó giao tiếp", "Cầu toàn", "Cứng nhắc"]
+      },
+      "ISTP": {
+        "code": "ISTP",
+        "name": "The Virtuoso",
+        "nameVi": "Người Tài Năng",
+        "emoji": "🔧",
+        "traits": ["Thực hành", "Logic", "Độc lập", "Lẫn lộn"],
+        "careers": ["Kỹ sư", "Cơ khí", "Lập trình viên", "Sửa chữa", "Thủ công"],
+        "strength": ["Giải quyết vấn đề", "Thực tế", "Độc lập"],
+        "challenge": ["Không giao tiếp", "Bất ổn định", "Khó tập trung"]
+      },
+      "ISFP": {
+        "code": "ISFP",
+        "name": "The Adventurer",
+        "nameVi": "Người Phiêu Lưu",
+        "emoji": "🎨",
+        "traits": ["Linh hoạt", "Khôn ngoan", "Hiện tại", "Sáng tạo"],
+        "careers": ["Nghệ sĩ", "Thiết kế", "Thợ", "Âm nhạc", "Du lịch"],
+        "strength": ["Sáng tạo", "Linh hoạt", "Chiều cảm"],
+        "challenge": ["Khó lập kế hoạch", "Tránh xung đột", "Chậm quyết định"]
+      },
+      "INFP": {
+        "code": "INFP",
+        "name": "The Mediator",
+        "nameVi": "Người Hòa Giải",
+        "emoji": "💙",
+        "traits": ["Lý tưởng", "Sáng tạo", "Cảm xúc", "Linh hoạt"],
+        "careers": ["Nhà văn", "Tâm lý", "Giáo viên", "Tư vấn", "Sáng tác"],
+        "strength": ["Sáng tạo", "Đồng cảm", "Authentic"],
+        "challenge": ["Quá cảm xúc", "Tránh xung đột", "Khó tập trung"]
+      },
+      "INTP": {
+        "code": "INTP",
+        "name": "The Logician",
+        "nameVi": "Người Logic",
+        "emoji": "🧠",
+        "traits": ["Logic", "Tò mò", "Độc lập", "Sâu sắc"],
+        "careers": ["Nhà khoa học", "Lập trình viên", "Toán học", "Triết học", "Kỹ sư"],
+        "strength": ["Phân tích", "Tò mò", "Sáng tạo"],
+        "challenge": ["Không xã hội", "Rất lý thuyết", "Khó quyết định"]
+      },
+      "ESTP": {
+        "code": "ESTP",
+        "name": "The Entrepreneur",
+        "nameVi": "Người Kinh Doanh",
+        "emoji": "⚡",
+        "traits": ["Thực hành", "Hành động", "Thích thử", "Năng lượng"],
+        "careers": ["Doanh nhân", "Sales", "Marketing", "Quân đội", "Thể thao"],
+        "strength": ["Nhanh nhạy", "Linh hoạt", "Thích thử thách"],
+        "challenge": ["Bất cứ", "Rủi ro cao", "Khó tập trung"]
+      },
+      "ESFP": {
+        "code": "ESFP",
+        "name": "The Entertainer",
+        "nameVi": "Người Giải Trí",
+        "emoji": "🎭",
+        "traits": ["Vui vẻ", "Xã hội", "Hiện tại", "Năng lượng"],
+        "careers": ["Người dẫn chương trình", "Diễn viên", "Hướng dẫn du lịch", "Sales", "Event"],
+        "strength": ["Giao tiếp", "Vui vẻ", "Thích ứng"],
+        "challenge": ["Thiếu tập trung", "Bất ổn định", "Khó suy tư"]
+      },
+      "ENFP": {
+        "code": "ENFP",
+        "name": "The Campaigner",
+        "nameVi": "Người Chiến Dịch",
+        "emoji": "🌟",
+        "traits": ["Sáng tạo", "Truyền cảm hứng", "Năng lượng", "Lý tưởng"],
+        "careers": ["Doanh nhân", "Cố vấn", "Giáo viên", "Marketer", "Người dẫn chương trình"],
+        "strength": ["Sáng tạo", "Truyền cảm hứng", "Linh hoạt"],
+        "challenge": ["Khó tập trung", "Tránh chi tiết", "Bất ổn định"]
+      },
+      "ENTP": {
+        "code": "ENTP",
+        "name": "The Debater",
+        "nameVi": "Người Tranh Luận",
+        "emoji": "💡",
+        "traits": ["Tò mò", "Trí tuệ", "Sáng tạo", "Tranh cãi"],
+        "careers": ["Luật sư", "Nhà khoa học", "Doanh nhân", "Giáo sư", "Cố vấn"],
+        "strength": ["Tò mò", "Trí tuệ", "Sáng tạo"],
+        "challenge": ["Tranh cãi", "Khó commitment", "Thiếu tập trung"]
+      },
+      "ESTJ": {
+        "code": "ESTJ",
+        "name": "The Executive",
+        "nameVi": "Người Thực Thi",
+        "emoji": "👔",
+        "traits": ["Lãnh đạo", "Tổ chức", "Thực tế", "Quyết đoán"],
+        "careers": ["CEO", "Quản lý", "Quân đội", "Luật sư", "Kinh doanh"],
+        "strength": ["Lãnh đạo", "Hiệu quả", "Tổ chức"],
+        "challenge": ["Cứng nhắc", "Không cảm xúc", "Chuyên chế"]
+      },
+      "ESFJ": {
+        "code": "ESFJ",
+        "name": "The Consul",
+        "nameVi": "Người Hòa Đồng",
+        "emoji": "👥",
+        "traits": ["Xã hội", "Quan tâm", "Tổ chức", "Giúp đỡ"],
+        "careers": ["HR", "Quản lý", "Giáo viên", "Tư vấn", "Dịch vụ khách hàng"],
+        "strength": ["Xã hội", "Tổ chức", "Quan tâm"],
+        "challenge": ["Quá nhạy cảm", "Khó nói không", "Cần công nhận"]
+      },
+      "ENFJ": {
+        "code": "ENFJ",
+        "name": "The Protagonist",
+        "nameVi": "Người Chính Diễn",
+        "emoji": "🎪",
+        "traits": ["Lãnh đạo", "Truyền cảm hứng", "Xã hội", "Lý tưởng"],
+        "careers": ["Lãnh đạo", "Giáo viên", "Tâm lý", "Huấn luyện viên", "Doanh nhân"],
+        "strength": ["Lãnh đạo", "Truyền cảm hứng", "Đồng cảm"],
+        "challenge": ["Quá tham vọng", "Cần phê chuẩn", "Khó nghe phê bình"]
+      },
+      "ENTJ": {
+        "code": "ENTJ",
+        "name": "The Commander",
+        "nameVi": "Người Chỉ Huy",
+        "emoji": "⚔️",
+        "traits": ["Lãnh đạo", "Chiến lược", "Logic", "Quyết đoán"],
+        "careers": ["CEO", "Tướng quân", "Chiến lược gia", "Doanh nhân", "Nhà quản lý"],
+        "strength": ["Lãnh đạo", "Chiến lược", "Quyết đoán"],
+        "challenge": ["Quá cứng nhắc", "Không cảm xúc", "Áp đặt"]
+      }
+    }
+  }
+}
